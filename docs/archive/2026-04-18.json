@@ -4,66 +4,66 @@
   "items": [
     {
       "title": "EVGA GeForce RTX 3070 XC3 Ultra 8GB",
-      "url": "https://www.tradera.com/item/341372/726755143/",
+      "url": "https://www.tradera.com/item/341372/726755143/evga-nvidia-geforce-rtx-3070-xc3-ultra-8gb-grafikkort-gpu-",
       "price": 892,
-      "original_price": 2800,
+      "original_price": 3500,
       "original_price_is_estimated": true,
-      "discount_percent": 68,
+      "discount_percent": 74,
       "category": "gpu",
       "source": "tradera"
     },
     {
-      "title": "ASUS RTX 3060 Ti V2 8GB TUF GAMING",
-      "url": "https://www.tradera.com/item/341372/726328001/",
-      "price": 1640,
-      "original_price": 3500,
+      "title": "NVIDIA GeForce GTX 960 – kompakt grafikkort med blower-kylning",
+      "url": "https://www.tradera.com/item/341373/723226131/nvidia-geforce-gtx-960-kompakt-grafikkort-med-blower-kylning",
+      "price": 365,
+      "original_price": 800,
+      "original_price_is_estimated": true,
+      "discount_percent": 54,
+      "category": "gpu",
+      "source": "tradera"
+    },
+    {
+      "title": "Gigabyte NVIDIA GeForce RTX 3090 24GB Grafikkort",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22493524",
+      "price": 9600,
+      "original_price": 15000,
+      "original_price_is_estimated": true,
+      "discount_percent": 36,
+      "category": "gpu",
+      "source": "blocket"
+    },
+    {
+      "title": "Asus TUF Gaming GeForce RTX 3060 grafikkort 12 GB",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22442960",
+      "price": 2300,
+      "original_price": 4000,
+      "original_price_is_estimated": true,
+      "discount_percent": 43,
+      "category": "gpu",
+      "source": "blocket"
+    },
+    {
+      "title": "Grafikkort GIGABYTE Geforce RTX 3060 Windforce OC 12G",
+      "url": "https://www.tradera.com/item/341373/725331666/grafikkort-gigabyte-geforce-rtx-3060-windforce-oc-12g",
+      "price": 1700,
+      "original_price": 4000,
+      "original_price_is_estimated": true,
+      "discount_percent": 58,
+      "category": "gpu",
+      "source": "tradera"
+    },
+    {
+      "title": "PNY grafikkort med trippelfläkt",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22487887",
+      "price": 1400,
+      "original_price": 3000,
       "original_price_is_estimated": true,
       "discount_percent": 53,
       "category": "gpu",
-      "source": "tradera"
-    },
-    {
-      "title": "PowerColor AMD Radeon RX 5700 XT",
-      "url": "https://www.tradera.com/item/341372/725781199/",
-      "price": 1045,
-      "original_price": 2000,
-      "original_price_is_estimated": true,
-      "discount_percent": 48,
-      "category": "gpu",
-      "source": "tradera"
-    },
-    {
-      "title": "GeForce RTX 2060 grafikkort",
-      "url": "https://www.blocket.se/recommerce/forsale/item/22147871",
-      "price": 1100,
-      "original_price": 2000,
-      "original_price_is_estimated": true,
-      "discount_percent": 45,
-      "category": "gpu",
       "source": "blocket"
     },
     {
-      "title": "MSI GeForce RTX 3070 8GB SUPRIM X",
-      "url": "https://www.blocket.se/recommerce/forsale/item/22486537",
-      "price": 2200,
-      "original_price": 3500,
-      "original_price_is_estimated": true,
-      "discount_percent": 37,
-      "category": "gpu",
-      "source": "blocket"
-    },
-    {
-      "title": "ASUS TUF Gaming RTX 3060 Ti OC 8GB",
-      "url": "https://www.blocket.se/recommerce/forsale/item/22251901",
-      "price": 2489,
-      "original_price": 4000,
-      "original_price_is_estimated": true,
-      "discount_percent": 38,
-      "category": "gpu",
-      "source": "blocket"
-    },
-    {
-      "title": "Radeon Rx 5500 XT 4GB PowerColor",
+      "title": "Radeon Rx 5500 XT, 4 GB, PowerColor grafikkort",
       "url": "https://www.blocket.se/recommerce/forsale/item/22472789",
       "price": 595,
       "original_price": 1200,
@@ -73,312 +73,82 @@
       "source": "blocket"
     },
     {
-      "title": "Anbernic RG35XX H Retrokonsol + 128GB SD (NYSKICK)",
-      "url": "https://www.blocket.se/recommerce/forsale/item/21740959",
-      "price": 900,
-      "original_price": 1400,
+      "title": "Nintendo 64 Kontroll (NY)",
+      "url": "https://www.tradera.com/item/1000428/727604301/nintendo-64-kontroll",
+      "price": 180,
+      "original_price": 500,
       "original_price_is_estimated": true,
-      "discount_percent": 36,
-      "category": "retro",
-      "source": "blocket"
-    },
-    {
-      "title": "Retro-bit Retro Duo v3.0 Nintendo 8-bit & 16-bit",
-      "url": "https://www.blocket.se/recommerce/forsale/item/22060060",
-      "price": 700,
-      "original_price": 1200,
-      "original_price_is_estimated": true,
-      "discount_percent": 42,
-      "category": "retro",
-      "source": "blocket"
-    },
-    {
-      "title": "Nintendo 64 Special Value Pak Golden Eye – komplett",
-      "url": "https://www.blocket.se/recommerce/forsale/item/20360377",
-      "price": 6500,
-      "original_price": 10000,
-      "original_price_is_estimated": true,
-      "discount_percent": 35,
-      "category": "retro",
-      "source": "blocket"
-    },
-    {
-      "title": "Retro-Bit SEGA Saturn 2.4G M2 Grey",
-      "url": "https://www.tradera.com/item/341372/726632124/",
-      "price": 339,
-      "original_price": 600,
-      "original_price_is_estimated": true,
-      "discount_percent": 44,
+      "discount_percent": 64,
       "category": "retro",
       "source": "tradera"
     },
     {
-      "title": "Razer BlackWidow mekaniskt tangentbord RGB",
-      "url": "https://www.blocket.se/recommerce/forsale/item/22469832",
-      "price": 350,
-      "original_price": 1000,
+      "title": "Super Mario 64 Nintendo 64",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22380841",
+      "price": 300,
+      "original_price": 550,
       "original_price_is_estimated": true,
-      "discount_percent": 65,
-      "category": "keyboard",
+      "discount_percent": 45,
+      "category": "retro",
       "source": "blocket"
     },
     {
-      "title": "Ducky One 2 Mini 65% mekaniskt tangentbord",
-      "url": "https://www.blocket.se/recommerce/forsale/item/22439680",
+      "title": "Nintendo 64 komplett inkl 2st spel och kontroll",
+      "url": "https://www.blocket.se/recommerce/forsale/item/19548419",
+      "price": 1500,
+      "original_price": 3000,
+      "original_price_is_estimated": true,
+      "discount_percent": 50,
+      "category": "retro",
+      "source": "blocket"
+    },
+    {
+      "title": "Everdrive 64 med microSD-kort för Nintendo 64",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22417980",
+      "price": 650,
+      "original_price": 1200,
+      "original_price_is_estimated": true,
+      "discount_percent": 46,
+      "category": "retro",
+      "source": "blocket"
+    },
+    {
+      "title": "Transparenta handkontroller till Nintendo 64",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22429150",
+      "price": 169,
+      "original_price": 400,
+      "original_price_is_estimated": true,
+      "discount_percent": 58,
+      "category": "retro",
+      "source": "blocket"
+    },
+    {
+      "title": "Nintendo 64 inkl orginalkartong",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22263015",
+      "price": 1499,
+      "original_price": 3000,
+      "original_price_is_estimated": true,
+      "discount_percent": 50,
+      "category": "retro",
+      "source": "blocket"
+    },
+    {
+      "title": "Nintendo 64 mario kart paket",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22279932",
+      "price": 1995,
+      "original_price": 3500,
+      "original_price_is_estimated": true,
+      "discount_percent": 43,
+      "category": "retro",
+      "source": "blocket"
+    },
+    {
+      "title": "Ducky one 2 mini 65% mekaniskt tangentbord",
+      "url": "https://www.blocket.se/recommerce/forsale/item/20786646",
       "price": 300,
       "original_price": 900,
       "original_price_is_estimated": true,
       "discount_percent": 67,
-      "category": "keyboard",
-      "source": "blocket"
-    },
-    {
-      "title": "Keychron K3 Pro Low Profile Mekaniskt",
-      "url": "https://www.blocket.se/recommerce/forsale/item/22406862",
-      "price": 400,
-      "original_price": 1100,
-      "original_price_is_estimated": true,
-      "discount_percent": 64,
-      "category": "keyboard",
-      "source": "blocket"
-    },
-    {
-      "title": "Logitech G915 TKL Lightspeed Clicky trådlöst",
-      "url": "https://www.blocket.se/recommerce/forsale/item/22273557",
-      "price": 1000,
-      "original_price": 2000,
-      "original_price_is_estimated": true,
-      "discount_percent": 50,
-      "category": "keyboard",
-      "source": "blocket"
-    },
-    {
-      "title": "DDR4 RAM 16GB",
-      "url": "https://www.blocket.se/recommerce/forsale/item/22366614",
-      "price": 800,
-      "original_price": 1800,
-      "original_price_is_estimated": true,
-      "discount_percent": 56,
-      "category": "ram",
-      "source": "blocket"
-    },
-    {
-      "title": "Corsair Vengeance (2x8GB=16GB) DDR4",
-      "url": "https://www.blocket.se/recommerce/forsale/item/22378160",
-      "price": 1500,
-      "original_price": 2500,
-      "original_price_is_estimated": true,
-      "discount_percent": 40,
-      "category": "ram",
-      "source": "blocket"
-    },
-    {
-      "title": "SO-DIMM DDR5 16GB 5600MHz",
-      "url": "https://www.blocket.se/recommerce/forsale/item/22401177",
-      "price": 1100,
-      "original_price": 2000,
-      "original_price_is_estimated": true,
-      "discount_percent": 45,
-      "category": "ram",
-      "source": "blocket"
-    },
-    {
-      "title": "Nätaggregat 650W nyskick",
-      "url": "https://www.blocket.se/recommerce/forsale/item/22367884",
-      "price": 200,
-      "original_price": 600,
-      "original_price_is_estimated": true,
-      "discount_percent": 67,
-      "category": "psu",
-      "source": "blocket"
-    },
-    {
-      "title": "Corsair RM750 nätaggregat 750W modulärt",
-      "url": "https://www.blocket.se/recommerce/forsale/item/22418640",
-      "price": 500,
-      "original_price": 1000,
-      "original_price_is_estimated": true,
-      "discount_percent": 50,
-      "category": "psu",
-      "source": "blocket"
-    },
-    {
-      "title": "Deepcool PX1000G Nätaggregat 1000W",
-      "url": "https://www.blocket.se/recommerce/forsale/item/22356126",
-      "price": 750,
-      "original_price": 1800,
-      "original_price_is_estimated": true,
-      "discount_percent": 58,
-      "category": "psu",
-      "source": "blocket"
-    },
-    {
-      "title": "Stationär gaming dator (RX 580, i5, 8GB RAM)",
-      "url": "https://www.blocket.se/recommerce/forsale/item/22382730",
-      "price": 3000,
-      "original_price": 6000,
-      "original_price_is_estimated": true,
-      "discount_percent": 50,
-      "category": "pc",
-      "source": "blocket"
-    },
-    {
-      "title": "HP Pavilion Gaming 790-0808no",
-      "url": "https://www.blocket.se/recommerce/forsale/item/22296448",
-      "price": 2999,
-      "original_price": 7000,
-      "original_price_is_estimated": true,
-      "discount_percent": 57,
-      "category": "pc",
-      "source": "blocket"
-    },
-    {
-      "title": "Sony DualShock 4 v2 Wireless Controller",
-      "url": "https://www.blocket.se/recommerce/forsale/item/621899",
-      "price": 245,
-      "original_price": 550,
-      "original_price_is_estimated": true,
-      "discount_percent": 55,
-      "category": "gaming",
-      "source": "blocket"
-    },
-    {
-      "title": "Xbox Cyberpunk 2077 Limited Edition handkontroll",
-      "url": "https://www.blocket.se/recommerce/forsale/item/21640457",
-      "price": 500,
-      "original_price": 800,
-      "original_price_is_estimated": true,
-      "discount_percent": 38,
-      "category": "gaming",
-      "source": "blocket"
-    },
-    {
-      "title": "Spy x Family Anya Forger figur (Sega)",
-      "url": "https://www.blocket.se/recommerce/forsale/item/21710138",
-      "price": 259,
-      "original_price": 500,
-      "original_price_is_estimated": true,
-      "discount_percent": 48,
-      "category": "anime",
-      "source": "blocket"
-    },
-    {
-      "title": "Demon Slayer Rengoku figur med svärd",
-      "url": "https://www.blocket.se/recommerce/forsale/item/22412996",
-      "price": 649,
-      "original_price": 1200,
-      "original_price_is_estimated": true,
-      "discount_percent": 46,
-      "category": "anime",
-      "source": "blocket"
-    },
-    {
-      "title": "Naruto Shippuden Kakashi figur",
-      "url": "https://www.blocket.se/recommerce/forsale/item/21749160",
-      "price": 300,
-      "original_price": 600,
-      "original_price_is_estimated": true,
-      "discount_percent": 50,
-      "category": "anime",
-      "source": "blocket"
-    },
-    {
-      "title": "Animal Crossing Isabelle Nendoroid #327",
-      "url": "https://www.blocket.se/recommerce/forsale/item/21487112",
-      "price": 1000,
-      "original_price": 1800,
-      "original_price_is_estimated": true,
-      "discount_percent": 44,
-      "category": "anime",
-      "source": "blocket"
-    },
-    {
-      "title": "3 st tavlor – växter/trollslända/Vee Speers (Fotografiska)",
-      "url": "https://www.blocket.se/recommerce/forsale/item/21683132",
-      "price": 150,
-      "original_price": 500,
-      "original_price_is_estimated": true,
-      "discount_percent": 70,
-      "category": "poster",
-      "source": "blocket"
-    },
-    {
-      "title": "GeForce RTX 1660 Super 6GB",
-      "url": "https://www.blocket.se/recommerce/forsale/item/22467580",
-      "price": 900,
-      "original_price": 2500,
-      "original_price_is_estimated": true,
-      "discount_percent": 64,
-      "category": "gpu",
-      "source": "blocket"
-    },
-    {
-      "title": "Intel Arc A750 grafikkort",
-      "url": "https://www.tradera.com/item/341372/726688327/intel-arc-a750-grafikkort-gpu",
-      "price": 1400,
-      "original_price": 3000,
-      "original_price_is_estimated": true,
-      "discount_percent": 53,
-      "category": "gpu",
-      "source": "tradera"
-    },
-    {
-      "title": "Super Nintendo (SNES) + handkontroll + spel",
-      "url": "https://www.blocket.se/recommerce/forsale/item/22482746",
-      "price": 650,
-      "original_price": 1500,
-      "original_price_is_estimated": true,
-      "discount_percent": 57,
-      "category": "retro",
-      "source": "blocket"
-    },
-    {
-      "title": "GoldenEye 007 - Nintendo 64 (N64)",
-      "url": "https://www.tradera.com/item/340668/726268717/goldeneye-007-nintendo-64-n64-spil",
-      "price": 354,
-      "original_price": 600,
-      "original_price_is_estimated": true,
-      "discount_percent": 41,
-      "category": "retro",
-      "source": "tradera"
-    },
-    {
-      "title": "Super Mario 64 - Nintendo 64 / N64",
-      "url": "https://www.tradera.com/item/340668/726268762/super-mario-64-nintendo-64-n64-spil",
-      "price": 354,
-      "original_price": 550,
-      "original_price_is_estimated": true,
-      "discount_percent": 36,
-      "category": "retro",
-      "source": "tradera"
-    },
-    {
-      "title": "Nintendo Wii konsol med handkontroller och spel",
-      "url": "https://www.blocket.se/recommerce/forsale/item/21807809",
-      "price": 1200,
-      "original_price": 2000,
-      "original_price_is_estimated": true,
-      "discount_percent": 40,
-      "category": "retro",
-      "source": "blocket"
-    },
-    {
-      "title": "Nintendo 64 Handkontroll (NUS-005)",
-      "url": "https://www.tradera.com/item/1000428/718219361/nintendo-64-handkontroll-nus-005-nintendo-64",
-      "price": 379,
-      "original_price": 600,
-      "original_price_is_estimated": true,
-      "discount_percent": 37,
-      "category": "retro",
-      "source": "tradera"
-    },
-    {
-      "title": "Ducky One 2 TKL mekaniskt tangentbord RGB",
-      "url": "https://www.blocket.se/recommerce/forsale/item/22433149",
-      "price": 650,
-      "original_price": 1200,
-      "original_price_is_estimated": true,
-      "discount_percent": 46,
       "category": "keyboard",
       "source": "blocket"
     },
@@ -393,52 +163,62 @@
       "source": "blocket"
     },
     {
-      "title": "Ducky One 2 Mini 65% mekaniskt tangentbord",
-      "url": "https://www.blocket.se/recommerce/forsale/item/20786646",
+      "title": "Logitech G413 SE Mekaniskt tangentbord",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22420740",
       "price": 300,
-      "original_price": 900,
+      "original_price": 700,
+      "original_price_is_estimated": true,
+      "discount_percent": 57,
+      "category": "keyboard",
+      "source": "blocket"
+    },
+    {
+      "title": "SteelSeries Apex 7 TKL Red Switch – RGB mekaniskt tangentbord",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22370953",
+      "price": 400,
+      "original_price": 1200,
       "original_price_is_estimated": true,
       "discount_percent": 67,
       "category": "keyboard",
       "source": "blocket"
     },
     {
-      "title": "Cherry MX G80-3000N TKL RGB tangentbord",
-      "url": "https://www.blocket.se/recommerce/forsale/item/22462883",
-      "price": 550,
-      "original_price": 1000,
+      "title": "AJAZZ AK820 Mekaniskt Gaming Tangentbord - NY OÖPPNAD",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22439249",
+      "price": 399,
+      "original_price": 800,
       "original_price_is_estimated": true,
-      "discount_percent": 45,
+      "discount_percent": 50,
       "category": "keyboard",
       "source": "blocket"
     },
     {
-      "title": "Redragon Phantom K629 Mekanisk Gamingtangentbord RGB",
-      "url": "https://www.tradera.com/item/340827/726359325/ny-mekanisk-gamingtangentbord-redragon-phantom-k629-rgb-usb-c-",
-      "price": 269,
-      "original_price": 500,
+      "title": "Ducky One 2 TKL mekaniskt tangentbord RGB",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22433149",
+      "price": 650,
+      "original_price": 1200,
       "original_price_is_estimated": true,
       "discount_percent": 46,
       "category": "keyboard",
-      "source": "tradera"
+      "source": "blocket"
     },
     {
-      "title": "2x8GB DDR5 Kingston Fury Beast 5200MHz",
-      "url": "https://www.blocket.se/recommerce/forsale/item/22214690",
-      "price": 1350,
-      "original_price": 2200,
+      "title": "Kingston Fury Beast DDR5 16GB 5200MHz",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22479405",
+      "price": 1450,
+      "original_price": 2500,
       "original_price_is_estimated": true,
-      "discount_percent": 39,
+      "discount_percent": 42,
       "category": "ram",
       "source": "blocket"
     },
     {
-      "title": "Corsair Vengeance DDR5 6000MHz 32GB (OÖPPNAD)",
-      "url": "https://www.blocket.se/recommerce/forsale/item/22408302",
-      "price": 3755,
-      "original_price": 5500,
+      "title": "Crucial Pro DDR5 32GB (2x16GB) 5600 MHz",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22428220",
+      "price": 2600,
+      "original_price": 4000,
       "original_price_is_estimated": true,
-      "discount_percent": 32,
+      "discount_percent": 35,
       "category": "ram",
       "source": "blocket"
     },
@@ -453,22 +233,112 @@
       "source": "blocket"
     },
     {
-      "title": "Gaming Komplett-pc RTX 3060 / i5 / 32GB RAM",
-      "url": "https://www.blocket.se/recommerce/forsale/item/22489618",
-      "price": 7000,
-      "original_price": 12000,
+      "title": "ddr5 ram 16gb 6000mhz cl36",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22411126",
+      "price": 1650,
+      "original_price": 2800,
       "original_price_is_estimated": true,
-      "discount_percent": 42,
+      "discount_percent": 41,
+      "category": "ram",
+      "source": "blocket"
+    },
+    {
+      "title": "32GB 6000mhz Corsair Vengeance RGB DDR5 RAM-minne vit",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22350369",
+      "price": 3200,
+      "original_price": 5000,
+      "original_price_is_estimated": true,
+      "discount_percent": 36,
+      "category": "ram",
+      "source": "blocket"
+    },
+    {
+      "title": "Corsair CX750 nätaggregat 750W",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22487652",
+      "price": 500,
+      "original_price": 900,
+      "original_price_is_estimated": true,
+      "discount_percent": 44,
+      "category": "psu",
+      "source": "blocket"
+    },
+    {
+      "title": "Corsair RM850x nätaggregat 850W",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22471364",
+      "price": 650,
+      "original_price": 1300,
+      "original_price_is_estimated": true,
+      "discount_percent": 50,
+      "category": "psu",
+      "source": "blocket"
+    },
+    {
+      "title": "Seasonic Focus GX-850 nätaggregat 850W",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22396612",
+      "price": 600,
+      "original_price": 1200,
+      "original_price_is_estimated": true,
+      "discount_percent": 50,
+      "category": "psu",
+      "source": "blocket"
+    },
+    {
+      "title": "Corsair RM750 nätaggregat 750W",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22307244",
+      "price": 400,
+      "original_price": 900,
+      "original_price_is_estimated": true,
+      "discount_percent": 56,
+      "category": "psu",
+      "source": "blocket"
+    },
+    {
+      "title": "Corsair RM750e nätaggregat 750W ATX modulärt",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22319186",
+      "price": 600,
+      "original_price": 1000,
+      "original_price_is_estimated": true,
+      "discount_percent": 40,
+      "category": "psu",
+      "source": "blocket"
+    },
+    {
+      "title": "Äldre gaming dator",
+      "url": "https://www.blocket.se/recommerce/forsale/item/19077767",
+      "price": 500,
+      "original_price": 2000,
+      "original_price_is_estimated": true,
+      "discount_percent": 75,
       "category": "pc",
       "source": "blocket"
     },
     {
-      "title": "HP Omen 25L Gaming PC RTX 3070 i5-14000F",
-      "url": "https://www.blocket.se/recommerce/forsale/item/22431363",
-      "price": 9000,
-      "original_price": 15000,
+      "title": "Gaming Dator / Speldator",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22470320",
+      "price": 4000,
+      "original_price": 8000,
       "original_price_is_estimated": true,
-      "discount_percent": 40,
+      "discount_percent": 50,
+      "category": "pc",
+      "source": "blocket"
+    },
+    {
+      "title": "Lenovo T5 Gaming dator GTX 1660 Super, Ryzen 5 3600",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22488822",
+      "price": 4250,
+      "original_price": 8000,
+      "original_price_is_estimated": true,
+      "discount_percent": 47,
+      "category": "pc",
+      "source": "blocket"
+    },
+    {
+      "title": "Kraftfull Gaming Dator (RTX 2080)",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22471283",
+      "price": 6500,
+      "original_price": 12000,
+      "original_price_is_estimated": true,
+      "discount_percent": 46,
       "category": "pc",
       "source": "blocket"
     },
@@ -483,7 +353,7 @@
       "source": "blocket"
     },
     {
-      "title": "Re:Zero - Rem (Serenus Couture Ver.) Anime Figur",
+      "title": "Re:Zero - Rem (Serenus Couture Ver.) - Anime Figur",
       "url": "https://www.blocket.se/recommerce/forsale/item/18926853",
       "price": 260,
       "original_price": 600,
@@ -493,23 +363,63 @@
       "source": "blocket"
     },
     {
-      "title": "K-On! Ritsu Tainaka Chibi Drumset Mini Nendoroid",
-      "url": "https://www.tradera.com/item/1000954/727406178/k-on-ritsu-tainaka-chibi-drumset-figure-mini-nendoroid",
-      "price": 80,
-      "original_price": 300,
-      "original_price_is_estimated": true,
-      "discount_percent": 73,
-      "category": "anime",
-      "source": "tradera"
-    },
-    {
-      "title": "Bandai Jujutsu Kaisen Megumi Fushiguro figur",
+      "title": "Bandai Jujutsu Kaisen Megumi Fushiguro figur anime",
       "url": "https://www.blocket.se/recommerce/forsale/item/21608660",
       "price": 189,
       "original_price": 400,
       "original_price_is_estimated": true,
       "discount_percent": 53,
       "category": "anime",
+      "source": "blocket"
+    },
+    {
+      "title": "Funko Pop! Anime Samling av 3 figurer",
+      "url": "https://www.blocket.se/recommerce/forsale/item/19335981",
+      "price": 325,
+      "original_price": 750,
+      "original_price_is_estimated": true,
+      "discount_percent": 57,
+      "category": "anime",
+      "source": "blocket"
+    },
+    {
+      "title": "Demon Slayer Rengoku figur med svärd och flamdekor",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22412996",
+      "price": 649,
+      "original_price": 1200,
+      "original_price_is_estimated": true,
+      "discount_percent": 46,
+      "category": "anime",
+      "source": "blocket"
+    },
+    {
+      "title": "Anime figur - Sansei Muramasa Maid 1/7",
+      "url": "https://www.blocket.se/recommerce/forsale/item/21565805",
+      "price": 999,
+      "original_price": 2000,
+      "original_price_is_estimated": true,
+      "discount_percent": 50,
+      "category": "anime",
+      "source": "blocket"
+    },
+    {
+      "title": "Banpresto One Piece Boa Hancock Figur",
+      "url": "https://www.blocket.se/recommerce/forsale/item/21478109",
+      "price": 399,
+      "original_price": 800,
+      "original_price_is_estimated": true,
+      "discount_percent": 50,
+      "category": "anime",
+      "source": "blocket"
+    },
+    {
+      "title": "Tavla poster",
+      "url": "https://www.blocket.se/recommerce/forsale/item/21904336",
+      "price": 300,
+      "original_price": 600,
+      "original_price_is_estimated": true,
+      "discount_percent": 50,
+      "category": "poster",
       "source": "blocket"
     }
   ]
