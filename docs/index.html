@@ -126,9 +126,9 @@
   <script>
     const TRACKING = [
       'gpus','retro consoles','keyboards','ram kits','power supplies','pcs',
-      'gaming gear','anime figurines','posters',
-      'blocket','tradera','vinted','ebay','sellpy'
+      'gaming gear','anime figurines','posters'
     ];
+    const SOURCES = ['blocket','tradera','vinted','ebay','sellpy'];
 
     const CATS = [
       { key: 'gpu', label: 'GPUs' },
@@ -147,7 +147,10 @@
 
     // chips
     const chipsEl = document.getElementById('chips');
+    const catLabel = document.createElement('span'); catLabel.className = 'chip'; catLabel.style.color = '#7a8aaa'; catLabel.textContent = 'tracking:'; chipsEl.appendChild(catLabel);
     TRACKING.forEach(t => { const s = document.createElement('span'); s.className = 'chip'; s.textContent = t; chipsEl.appendChild(s); });
+    const srcSep = document.createElement('span'); srcSep.className = 'chip'; srcSep.style.color = '#7a8aaa'; srcSep.textContent = 'sources:'; chipsEl.appendChild(srcSep);
+    SOURCES.forEach(t => { const s = document.createElement('span'); s.className = 'chip'; s.textContent = t; chipsEl.appendChild(s); });
 
     let allItems = [];
     const sourceFilter = document.getElementById('sourceFilter');
