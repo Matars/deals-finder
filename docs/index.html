@@ -4,200 +4,264 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>deals finder — sweden tech deals</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🇸🇪</text></svg>" />
   <style>
     :root {
       --bg: #0b1220;
       --panel: #121a2b;
       --panel-2: #1a2439;
+      --panel-3: #0f1730;
       --text: #e8edf8;
-      --muted: #9baccc;
+      --muted: #7a8aaa;
       --accent: #7aa2ff;
       --good: #59d499;
-      --line: #2a3652;
+      --warn: #f0b86e;
+      --line: #22304a;
+      --line2: #1a2740;
+      --card: #151f34;
+      --card-hover: #1b2844;
+      --col-bg: #0f1730;
+      --radius: 12px;
     }
     * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
-      background: linear-gradient(180deg, #0a1020 0%, #0b1220 100%);
-      color: var(--text);
+    body { margin: 0; font-family: Inter, system-ui, -apple-system, sans-serif; background: var(--bg); color: var(--text); }
+    .topbar {
+      position: sticky; top: 0; z-index: 50;
+      background: rgba(11,18,32,.82); backdrop-filter: blur(14px);
+      border-bottom: 1px solid var(--line);
+      padding: 14px 20px;
+      display: flex; align-items: center; gap: 14px; flex-wrap: wrap;
     }
-    .wrap { max-width: 1100px; margin: 0 auto; padding: 24px 16px 56px; }
-    .hero {
-      background: radial-gradient(1200px 600px at 10% -20%, #233b72, transparent), var(--panel);
-      border: 1px solid var(--line);
-      border-radius: 16px;
-      padding: 20px;
-      margin-bottom: 16px;
+    .topbar h1 { margin: 0; font-size: 1.15rem; white-space: nowrap; }
+    .topbar .muted { color: var(--muted); font-size: .82rem; }
+    .topbar .spacer { flex: 1; }
+    .topbar select, .topbar input {
+      background: var(--panel); color: var(--text);
+      border: 1px solid var(--line); border-radius: 8px;
+      padding: 6px 10px; font-size: .82rem;
     }
-    h1 { margin: 0 0 8px; font-size: 1.4rem; }
-    .muted { color: var(--muted); }
-    .chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
-    .chip {
-      border: 1px solid var(--line);
-      background: var(--panel-2);
-      color: #dce6ff;
-      border-radius: 999px;
-      padding: 4px 10px;
-      font-size: 12px;
-    }
-    .actions { margin-top: 12px; display: flex; gap: 12px; flex-wrap: wrap; }
+    .topbar input { width: 200px; }
+    .actions { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; padding: 0 20px 0; }
     a { color: var(--accent); text-decoration: none; }
     a:hover { text-decoration: underline; }
-    .panel {
-      background: var(--panel);
+    .chips { display: flex; flex-wrap: wrap; gap: 6px; padding: 10px 20px 4px; }
+    .chip {
+      border: 1px solid var(--line); background: var(--panel-2);
+      color: #c8d8ff; border-radius: 999px; padding: 3px 10px; font-size: 11px;
+    }
+    .board {
+      display: flex; gap: 0; overflow-x: auto;
+      padding: 12px 10px 24px;
+      min-height: 300px;
+    }
+    .col {
+      min-width: 240px; max-width: 340px; flex: 1;
+      background: var(--col-bg);
+      border-right: 1px solid var(--line2);
+      display: flex; flex-direction: column;
+    }
+    .col:last-child { border-right: 0; }
+    .col-head {
+      padding: 12px 14px 8px;
+      font-size: .78rem; font-weight: 600; color: var(--accent);
+      display: flex; justify-content: space-between; align-items: center;
+      border-bottom: 1px solid var(--line2);
+      position: sticky; top: 0; background: var(--col-bg); z-index: 10;
+    }
+    .col-count {
+      background: var(--panel); color: var(--muted);
+      border-radius: 999px; padding: 1px 8px; font-size: 11px; font-weight: 400;
+    }
+    .col-body { padding: 8px; flex: 1; display: flex; flex-direction: column; gap: 6px; overflow-y: auto; }
+    .card {
+      background: var(--card);
       border: 1px solid var(--line);
-      border-radius: 16px;
-      overflow: hidden;
+      border-radius: var(--radius);
+      padding: 10px 12px;
+      transition: background .15s, border-color .15s;
+      cursor: default;
     }
-    .toolbar {
-      padding: 12px 14px;
-      border-bottom: 1px solid var(--line);
-      display: flex;
-      gap: 10px;
-      align-items: center;
-      justify-content: space-between;
-      flex-wrap: wrap;
+    .card:hover { background: var(--card-hover); border-color: var(--accent); }
+    .card-title { font-size: .82rem; font-weight: 500; margin-bottom: 6px; }
+    .card-title a { color: var(--text); }
+    .card-title a:hover { color: var(--accent); }
+    .card-meta { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; font-size: .75rem; }
+    .price { color: var(--good); font-weight: 600; }
+    .orig { color: var(--muted); text-decoration: line-through; font-size: .72rem; }
+    .badge {
+      display: inline-block; border-radius: 999px; padding: 1px 7px;
+      font-size: 10px; font-weight: 500; border: 1px solid var(--line);
     }
-    select {
-      background: #0f1730;
-      color: var(--text);
-      border: 1px solid var(--line);
-      border-radius: 10px;
-      padding: 6px 10px;
-    }
-    table { width: 100%; border-collapse: collapse; }
-    th, td {
-      border-bottom: 1px solid var(--line);
-      padding: 11px 10px;
-      text-align: left;
-      vertical-align: top;
-      font-size: 14px;
-    }
-    th { color: #c8d7ff; background: #0f1730; }
-    .pill {
-      display: inline-block;
-      border-radius: 999px;
-      padding: 2px 8px;
-      font-size: 12px;
-      border: 1px solid var(--line);
-      background: #131d34;
-      color: #cfe0ff;
-      margin-top: 4px;
-    }
-    .discount { color: var(--good); font-weight: 600; }
-    .empty { padding: 16px; color: var(--muted); }
+    .badge-disc { background: rgba(89,212,153,.12); color: var(--good); border-color: rgba(89,212,153,.25); }
+    .badge-src { background: rgba(122,162,255,.10); color: var(--accent); border-color: rgba(122,162,255,.18); }
+    .badge-est { background: rgba(240,184,110,.10); color: var(--warn); border-color: rgba(240,184,110,.18); }
+    .empty-col { color: var(--muted); font-size: .78rem; padding: 16px 4px; text-align: center; }
+    @media (max-width: 900px) { .col { min-width: 200px; } }
   </style>
 </head>
 <body>
-  <div class="wrap">
-    <section class="hero">
-      <h1>🇸🇪 daily sweden second-hand tech deals</h1>
-      <div class="muted" id="meta">loading…</div>
-      <div class="chips" id="trackingChips"></div>
-      <div class="actions">
-        <a href="./archive/index.html">open archive</a>
-        <a href="./latest.json">raw json</a>
-      </div>
-    </section>
-
-    <section class="panel">
-      <div class="toolbar">
-        <div class="muted" id="countLabel">0 deals</div>
-        <div>
-          <label class="muted" for="sourceFilter">source:</label>
-          <select id="sourceFilter">
-            <option value="all">all</option>
-          </select>
-        </div>
-      </div>
-
-      <table>
-        <thead>
-          <tr>
-            <th>item</th>
-            <th>price</th>
-            <th>original / nypris</th>
-            <th>discount</th>
-            <th>source</th>
-          </tr>
-        </thead>
-        <tbody id="rows"></tbody>
-      </table>
-      <div id="empty" class="empty" style="display:none;">no deals matched this filter.</div>
-    </section>
+  <div class="topbar">
+    <h1>🇸🇪 deals finder</h1>
+    <span class="muted" id="meta">loading…</span>
+    <div class="spacer"></div>
+    <select id="sourceFilter">
+      <option value="all">all sources</option>
+    </select>
+    <select id="sortBy">
+      <option value="discount">% discount ↓</option>
+      <option value="price-asc">price ↑</option>
+      <option value="price-desc">price ↓</option>
+      <option value="newest">newest</option>
+    </select>
+    <input type="text" id="searchBox" placeholder="search deals…" />
   </div>
+  <div class="chips" id="chips"></div>
+  <div class="actions" style="padding-bottom:6px;">
+    <a href="./archive/index.html">archive</a>
+    <a href="./latest.json">raw json</a>
+  </div>
+
+  <div class="board" id="board"></div>
 
   <script>
     const TRACKING = [
-      'gpus', 'retro consoles', 'keyboards', 'ram kits', 'power supplies', 'pcs', 'sources: blocket + tradera'
+      'gpus','retro consoles','keyboards','ram kits','power supplies','pcs',
+      'gaming gear','anime figurines','posters',
+      'blocket','tradera','vinted','ebay','sellpy'
     ];
 
-    const fmtSEK = (n) => (typeof n === 'number' && Number.isFinite(n)) ? `${n.toLocaleString('sv-SE')} kr` : '—';
-    const chips = document.getElementById('trackingChips');
-    TRACKING.forEach(t => {
-      const el = document.createElement('span');
-      el.className = 'chip';
-      el.textContent = t;
-      chips.appendChild(el);
-    });
+    const CATS = [
+      { key: 'gpu', label: 'GPUs' },
+      { key: 'retro', label: 'Retro Consoles' },
+      { key: 'keyboard', label: 'Keyboards' },
+      { key: 'ram', label: 'RAM' },
+      { key: 'psu', label: 'Power Supplies' },
+      { key: 'pc', label: 'PCs / Laptops' },
+      { key: 'gaming', label: 'Gaming Gear' },
+      { key: 'anime', label: 'Anime / Figurines' },
+      { key: 'poster', label: 'Posters / Art' },
+      { key: 'other', label: 'Other' },
+    ];
+
+    const fmtSEK = n => (typeof n === 'number' && Number.isFinite(n)) ? `${n.toLocaleString('sv-SE')} kr` : '—';
+
+    // chips
+    const chipsEl = document.getElementById('chips');
+    TRACKING.forEach(t => { const s = document.createElement('span'); s.className = 'chip'; s.textContent = t; chipsEl.appendChild(s); });
 
     let allItems = [];
-
-    const rows = document.getElementById('rows');
-    const empty = document.getElementById('empty');
     const sourceFilter = document.getElementById('sourceFilter');
-    const countLabel = document.getElementById('countLabel');
+    const sortBy = document.getElementById('sortBy');
+    const searchBox = document.getElementById('searchBox');
+
+    function normalizeCategory(item) {
+      const c = (item.category || '').toLowerCase();
+      if (c.includes('gpu') || c.includes('grafik') || c.includes('rtx') || c.includes('gtx') || c.includes('radeon')) return 'gpu';
+      if (c.includes('retro') || c.includes('konsol') || c.includes('console') || c.includes('nintendo') || c.includes('sega') || c.includes('playstation') || c.includes('mega drive') || c.includes('gamecube')) return 'retro';
+      if (c.includes('keyboard') || c.includes('tangentbord')) return 'keyboard';
+      if (c.includes('ram') || c.includes('minne') || c.includes('memory') || c.includes('ddr')) return 'ram';
+      if (c.includes('psu') || c.includes('power') || c.includes('nätdel') || c.includes('strömförsörjning')) return 'psu';
+      if (c.includes('pc') || c.includes('desktop') || c.includes('dator') || c.includes('laptop') || c.includes('dator')) return 'pc';
+      if (c.includes('gaming') || c.includes('headset') || c.includes('mus ') || c.includes('mouse') || c.includes('kontroll') || c.includes('controller') || c.includes('joystick')) return 'gaming';
+      if (c.includes('anime') || c.includes('figurin') || c.includes('figur') || c.includes('figma') || c.includes('nendoroid') || c.includes('collectible')) return 'anime';
+      if (c.includes('poster') || c.includes('affisch') || c.includes('print') || c.includes('konst') || c.includes('art')) return 'poster';
+      // fallback: try title
+      const t = (item.title || '').toLowerCase();
+      if (t.match(/rtx|gtx|radeon|gpu|grafikkort/)) return 'gpu';
+      if (t.match(/nintendo|sega|mega drive|gamecube|super nintendo|playstation|atari/)) return 'retro';
+      if (t.match(/keyboard|tangentbord|mechanical/)) return 'keyboard';
+      if (t.match(/\b(ram|ddr[45]|minne)\b/)) return 'ram';
+      if (t.match(/nätdel|strömförsörjning|psu|power supply/)) return 'psu';
+      if (t.match(/dator|desktop|laptop|pc\b/)) return 'pc';
+      if (t.match(/headset|controller|kontroll|gaming mouse|gaming mus/)) return 'gaming';
+      if (t.match(/anime|figurin|figma|nendoroid|manga/)) return 'anime';
+      if (t.match(/poster|affisch|print|canvas/)) return 'poster';
+      return 'other';
+    }
+
+    function sortItems(items) {
+      const mode = sortBy.value;
+      return items.slice().sort((a, b) => {
+        switch (mode) {
+          case 'discount': return (b.discount_percent || 0) - (a.discount_percent || 0);
+          case 'price-asc': return (a.price || 999999) - (b.price || 999999);
+          case 'price-desc': return (b.price || 0) - (a.price || 0);
+          case 'newest': return (b._index || 0) - (a._index || 0);
+          default: return (b.discount_percent || 0) - (a.discount_percent || 0);
+        }
+      });
+    }
+
+    function filterItems(items) {
+      const src = sourceFilter.value;
+      const q = searchBox.value.toLowerCase().trim();
+      return items.filter(i => {
+        if (src !== 'all' && (i.source || '').toLowerCase() !== src) return false;
+        if (q && !(i.title || '').toLowerCase().includes(q)) return false;
+        return true;
+      });
+    }
 
     function render() {
-      const selected = sourceFilter.value;
-      const filtered = selected === 'all'
-        ? allItems
-        : allItems.filter(i => (i.source || '').toLowerCase() === selected);
+      const filtered = sortItems(filterItems(allItems));
+      const board = document.getElementById('board');
+      board.innerHTML = '';
 
-      rows.innerHTML = '';
-      filtered.forEach(item => {
-        const tr = document.createElement('tr');
-        const src = item.original_price_is_estimated
-          ? '<span class="pill">estimated nypris</span>'
-          : '<span class="pill">listing nypris</span>';
-        tr.innerHTML = `
-          <td><a href="${item.url}" target="_blank" rel="noopener noreferrer">${item.title || 'untitled'}</a></td>
-          <td>${fmtSEK(item.price)}</td>
-          <td>${fmtSEK(item.original_price)}<br>${src}</td>
-          <td class="discount">${item.discount_percent ?? '—'}%</td>
-          <td>${item.source || 'unknown'}</td>
-        `;
-        rows.appendChild(tr);
+      CATS.forEach(cat => {
+        const items = filtered.filter(i => normalizeCategory(i) === cat.key);
+        const col = document.createElement('div');
+        col.className = 'col';
+        col.innerHTML = `<div class="col-head"><span>${cat.label}</span><span class="col-count">${items.length}</span></div>`;
+        const body = document.createElement('div');
+        body.className = 'col-body';
+
+        if (!items.length) {
+          body.innerHTML = `<div class="empty-col">no deals</div>`;
+        } else {
+          items.forEach(item => {
+            const card = document.createElement('div');
+            card.className = 'card';
+            const disc = item.discount_percent != null ? `<span class="badge badge-disc">-${item.discount_percent}%</span>` : '';
+            const est = item.original_price_is_estimated ? `<span class="badge badge-est">est</span>` : '';
+            const src = `<span class="badge badge-src">${item.source || '?'}</span>`;
+            card.innerHTML = `
+              <div class="card-title"><a href="${item.url}" target="_blank" rel="noopener">${item.title || 'untitled'}</a></div>
+              <div class="card-meta">
+                <span class="price">${fmtSEK(item.price)}</span>
+                <span class="orig">${fmtSEK(item.original_price)}</span>
+                ${disc}${est}${src}
+              </div>`;
+            body.appendChild(card);
+          });
+        }
+        col.appendChild(body);
+        board.appendChild(col);
       });
 
-      countLabel.textContent = `${filtered.length} deals`;
-      empty.style.display = filtered.length ? 'none' : 'block';
+      document.getElementById('meta').textContent = `${document.querySelector('#meta').dataset.date || ''} • ${filtered.length} deals shown`;
     }
 
     fetch('./latest.json', { cache: 'no-store' })
       .then(r => r.json())
       .then(data => {
-        const date = data.date || 'unknown date';
-        const count = Array.isArray(data.items) ? data.items.length : 0;
+        const date = data.date || 'unknown';
+        const count = (data.items || []).length;
+        allItems = (data.items || []).map((item, i) => ({ ...item, _index: i }));
         document.getElementById('meta').textContent = `${date} • ${count} deals`;
-
-        allItems = (data.items || []).slice();
+        document.getElementById('meta').dataset.date = date;
 
         const sources = [...new Set(allItems.map(i => (i.source || 'unknown').toLowerCase()))].filter(Boolean).sort();
         sources.forEach(s => {
-          const opt = document.createElement('option');
-          opt.value = s;
-          opt.textContent = s;
+          const opt = document.createElement('option'); opt.value = s; opt.textContent = s;
           sourceFilter.appendChild(opt);
         });
 
         sourceFilter.addEventListener('change', render);
+        sortBy.addEventListener('change', render);
+        searchBox.addEventListener('input', render);
         render();
       })
-      .catch(err => {
-        document.getElementById('meta').textContent = `failed to load latest.json: ${err}`;
-      });
+      .catch(err => { document.getElementById('meta').textContent = `error: ${err}`; });
   </script>
 </body>
 </html>
