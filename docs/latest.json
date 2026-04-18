@@ -1,36 +1,105 @@
 {
   "date": "2026-04-18",
-  "source": "blocket",
   "currency": "SEK",
   "items": [
     {
-      "title": "Gigabyte GeForce RTX 3070 grafikkort",
-      "url": "https://www.blocket.se/recommerce/forsale/item/22427701",
-      "price": 2289,
-      "original_price": 5200,
+      "title": "ASUS TUF Gaming GeForce RTX 3060 Ti OC 8GB",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22251901",
+      "price": 2489,
+      "original_price": 5500,
+      "original_price_is_estimated": true,
+      "discount_percent": 55,
+      "category": "GPU",
+      "source": "blocket"
+    },
+    {
+      "title": "MSI GeForce RTX 3070 8GB SUPRIM X",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22486537",
+      "price": 2200,
+      "original_price": 5000,
       "original_price_is_estimated": true,
       "discount_percent": 56,
       "category": "GPU",
       "source": "blocket"
     },
     {
-      "title": "ASUS TUF Gaming GeForce RTX 3060 Ti OC 8GB",
-      "url": "https://www.blocket.se/recommerce/forsale/item/22251901",
-      "price": 2489,
-      "original_price": 4500,
+      "title": "GeForce RTX 2060 grafikkort (GPU)",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22147871",
+      "price": 1100,
+      "original_price": 3000,
       "original_price_is_estimated": true,
-      "discount_percent": 45,
+      "discount_percent": 63,
       "category": "GPU",
       "source": "blocket"
     },
     {
-      "title": "ASUS GeForce RTX 3070 8GB TUF GAMING OC",
-      "url": "https://www.blocket.se/recommerce/forsale/item/22307154",
-      "price": 2800,
-      "original_price": 5200,
+      "title": "EVGA Nvidia GeForce RTX 3070 XC3 Ultra 8GB (auktion)",
+      "url": "https://www.tradera.com/item/341372/726755143/evga-nvidia-geforce-rtx-3070-xc3-ultra-8gb-grafikkort-gpu-",
+      "price": 892,
+      "original_price": 5000,
       "original_price_is_estimated": true,
-      "discount_percent": 46,
+      "discount_percent": 82,
       "category": "GPU",
+      "source": "tradera"
+    },
+    {
+      "title": "NVIDIA GeForce RTX 2060 (auktion)",
+      "url": "https://www.tradera.com/item/341372/727382900/nvidia-geforce-rtx-2060-grafikkort",
+      "price": 700,
+      "original_price": 3000,
+      "original_price_is_estimated": true,
+      "discount_percent": 77,
+      "category": "GPU",
+      "source": "tradera"
+    },
+    {
+      "title": "GIGABYTE GeForce RTX 3070 (auktion/Köp nu)",
+      "url": "https://www.tradera.com/item/341372/727223797/gigabyte-geforce-rtx-3070-grafikkort",
+      "price": 2289,
+      "original_price": 5000,
+      "original_price_is_estimated": true,
+      "discount_percent": 54,
+      "category": "GPU",
+      "source": "tradera"
+    },
+    {
+      "title": "Nintendo 64 komplett inkl 2 spel och kontroll",
+      "url": "https://www.blocket.se/recommerce/forsale/item/19548419",
+      "price": 1500,
+      "original_price": 3500,
+      "original_price_is_estimated": true,
+      "discount_percent": 57,
+      "category": "Retro Console",
+      "source": "blocket"
+    },
+    {
+      "title": "Nintendo 64 inkl orginalkartong",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22263015",
+      "price": 1499,
+      "original_price": 3000,
+      "original_price_is_estimated": true,
+      "discount_percent": 50,
+      "category": "Retro Console",
+      "source": "blocket"
+    },
+    {
+      "title": "Super Mario 64 spelkassett N64",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22380841",
+      "price": 300,
+      "original_price": 600,
+      "original_price_is_estimated": true,
+      "discount_percent": 50,
+      "category": "Retro Console",
+      "source": "blocket"
+    },
+    {
+      "title": "Everdrive 64 med microSD-kort",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22417980",
+      "price": 650,
+      "original_price": 1500,
+      "original_price_is_estimated": true,
+      "discount_percent": 57,
+      "category": "Retro Console",
       "source": "blocket"
     },
     {
@@ -44,54 +113,124 @@
       "source": "blocket"
     },
     {
+      "title": "Razer BlackWidow mekaniskt tangentbord RGB",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22450998",
+      "price": 350,
+      "original_price": 1200,
+      "original_price_is_estimated": true,
+      "discount_percent": 71,
+      "category": "Keyboard",
+      "source": "blocket"
+    },
+    {
+      "title": "SteelSeries Apex 7 TKL Red Switch RGB",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22370953",
+      "price": 400,
+      "original_price": 1500,
+      "original_price_is_estimated": true,
+      "discount_percent": 73,
+      "category": "Keyboard",
+      "source": "blocket"
+    },
+    {
       "title": "Keychron K2 trådlöst mekaniskt tangentbord 75%",
       "url": "https://www.blocket.se/recommerce/forsale/item/21920842",
       "price": 650,
-      "original_price": 1100,
+      "original_price": 1200,
       "original_price_is_estimated": true,
-      "discount_percent": 41,
+      "discount_percent": 46,
       "category": "Keyboard",
       "source": "blocket"
     },
     {
-      "title": "Logitech MX Keys for Mac + MX Master 3 for Mac",
-      "url": "https://www.blocket.se/recommerce/forsale/item/22429034",
-      "price": 690,
-      "original_price": 1700,
+      "title": "AJAZZ AK820 Mekaniskt Gaming Tangentbord - NY OÖPPNAD (Tradera)",
+      "url": "https://www.tradera.com/item/340827/726303898/fri-frakt-ajazz-ak820-mekaniskt-gaming-tangentbord-ny-ooppnad",
+      "price": 349,
+      "original_price": 600,
       "original_price_is_estimated": true,
-      "discount_percent": 59,
+      "discount_percent": 42,
       "category": "Keyboard",
-      "source": "blocket"
+      "source": "tradera"
     },
     {
-      "title": "Kingston FURY Beast DDR4 32GB RAM (Nypris 3490)",
-      "url": "https://www.blocket.se/recommerce/forsale/item/22354847",
-      "price": 2000,
-      "original_price": 3490,
-      "original_price_is_estimated": false,
+      "title": "G.Skill Ripjaws V DDR4 16GB (2x8GB) 3000MHz",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22334654",
+      "price": 850,
+      "original_price": 1500,
+      "original_price_is_estimated": true,
       "discount_percent": 43,
       "category": "RAM",
       "source": "blocket"
     },
     {
-      "title": "Acer Predator PO3-630 (RTX 3060Ti / i7-11700F / 32GB / 1TB)",
-      "url": "https://www.blocket.se/recommerce/forsale/item/19882652",
-      "price": 7100,
-      "original_price": 13000,
+      "title": "Corsair Vengeance 2x8GB 3200MHz DDR4",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22121450",
+      "price": 950,
+      "original_price": 1600,
       "original_price_is_estimated": true,
-      "discount_percent": 45,
-      "category": "Gaming PC",
+      "discount_percent": 41,
+      "category": "RAM",
       "source": "blocket"
     },
     {
-      "title": "Nintendo 64 med Pokémon Stadium och Super Mario 64",
-      "url": "https://www.blocket.se/recommerce/forsale/item/21591404",
-      "price": 1200,
-      "original_price": 2000,
+      "title": "16GB DDR4-8GB DDR5-8GB DDR3 bundle",
+      "url": "https://www.blocket.se/recommerce/forsale/item/21757329",
+      "price": 300,
+      "original_price": 1000,
       "original_price_is_estimated": true,
-      "discount_percent": 40,
-      "category": "Retro Console",
+      "discount_percent": 70,
+      "category": "RAM",
       "source": "blocket"
+    },
+    {
+      "title": "Nätaggregat (PSU) 400kr",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22412147",
+      "price": 400,
+      "original_price": 800,
+      "original_price_is_estimated": true,
+      "discount_percent": 50,
+      "category": "PSU",
+      "source": "blocket"
+    },
+    {
+      "title": "Gaming dator RTX 2070 Super",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22434947",
+      "price": 5000,
+      "original_price": 12000,
+      "original_price_is_estimated": true,
+      "discount_percent": 58,
+      "category": "PC",
+      "source": "blocket"
+    },
+    {
+      "title": "Ultra Quiet Workstation/Gaming PC RTX 2060 Super 32GB",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22473293",
+      "price": 5000,
+      "original_price": 10000,
+      "original_price_is_estimated": true,
+      "discount_percent": 50,
+      "category": "PC",
+      "source": "blocket"
+    },
+    {
+      "title": "Gaming Laptop Lenovo RTX 4060",
+      "url": "https://www.blocket.se/recommerce/forsale/item/22457453",
+      "price": 8000,
+      "original_price": 15000,
+      "original_price_is_estimated": true,
+      "discount_percent": 47,
+      "category": "PC",
+      "source": "blocket"
+    },
+    {
+      "title": "Speldator RTX 3060Ti Ryzen 5600X 16GB (Tradera)",
+      "url": "https://www.tradera.com/item/1001185/726912296/speldator-rtx-3060ti-ryzen-5600x-16gb-512gb-m-2-gaming-pc",
+      "price": 6400,
+      "original_price": 14000,
+      "original_price_is_estimated": true,
+      "discount_percent": 54,
+      "category": "PC",
+      "source": "tradera"
     }
   ]
 }
