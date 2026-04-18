@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>deals finder — sweden tech deals</title>
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; margin: 24px; line-height: 1.45; }
+    h1 { margin-bottom: 6px; }
+    .muted { color: #666; margin-top: 0; }
+    table { width: 100%; border-collapse: collapse; margin-top: 16px; }
+    th, td { border-bottom: 1px solid #eee; padding: 10px 8px; text-align: left; vertical-align: top; }
+    th { background: #fafafa; position: sticky; top: 0; }
+    a { color: #0a58ca; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .pill { display: inline-block; padding: 2px 8px; border-radius: 999px; background: #f2f4f7; }
+  </style>
+</head>
+<body>
+  <h1>🇸🇪 daily sweden second-hand tech deals</h1>
+  <p class="muted" id="meta">loading…</p>
+  <p><a href="./archive/index.html">open archive</a></p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>item</th>
+        <th>price</th>
+        <th>original / nypris</th>
+        <th>discount</th>
+        <th>source</th>
+      </tr>
+    </thead>
+    <tbody id="rows"></tbody>
+  </table>
+
+  <script>
+    const fmtSEK = (n) => (typeof n === 'number' && Number.isFinite(n)) ? `${n.toLocaleString('sv-SE')} kr` : '—';
+
+    fetch('./latest.json', { cache: 'no-store' })
+      .then(r => r.json())
+      .then(data => {
+        const date = data.date || 'unknown date';
+        const count = Array.isArray(data.items) ? data.items.length : 0;
+        document.getElementById('meta').textContent = `${date} • ${count} deals`;
+
+        const rows = document.getElementById('rows');
+        rows.innerHTML = '';
+
+        (data.items || []).forEach(item => {
+          const tr = document.createElement('tr');
+          const src = item.original_price_is_estimated ? '<span class="pill">estimated nypris</span>' : '<span class="pill">listing nypris</span>';
+          tr.innerHTML = `
+            <td><a href="${item.url}" target="_blank" rel="noopener noreferrer">${item.title || 'untitled'}</a></td>
+            <td>${fmtSEK(item.price)}</td>
+            <td>${fmtSEK(item.original_price)}<br>${src}</td>
+            <td>${item.discount_percent ?? '—'}%</td>
+            <td>${item.source || 'blocket'}</td>
+          `;
+          rows.appendChild(tr);
+        });
+      })
+      .catch(err => {
+        document.getElementById('meta').textContent = `failed to load latest.json: ${err}`;
+      });
+  </script>
+</body>
+</html>
