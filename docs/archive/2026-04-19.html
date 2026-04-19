@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweden Second-Hand Tech Deals - 2026-04-19</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0d1117; color: #c9d1d9; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+        h1 { color: #58a6ff; margin-bottom: 10px; }
+        .subtitle { color: #8b949e; margin-bottom: 20px; }
+        .stats { display: flex; gap: 20px; margin-bottom: 20px; flex-wrap: wrap; }
+        .stat { background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 12px 20px; }
+        .stat-value { font-size: 24px; font-weight: bold; color: #58a6ff; }
+        .stat-label { font-size: 12px; color: #8b949e; }
+        .filters { margin-bottom: 20px; display: flex; gap: 10px; flex-wrap: wrap; }
+        .filter-btn { background: #21262d; border: 1px solid #30363d; border-radius: 20px; padding: 6px 16px; color: #c9d1d9; cursor: pointer; font-size: 14px; }
+        .filter-btn:hover, .filter-btn.active { background: #388bfd26; border-color: #58a6ff; color: #58a6ff; }
+        table { width: 100%; border-collapse: collapse; background: #161b22; border-radius: 8px; overflow: hidden; }
+        th { background: #21262d; padding: 12px; text-align: left; font-size: 12px; text-transform: uppercase; color: #8b949e; }
+        td { padding: 10px 12px; border-bottom: 1px solid #21262d; }
+        tr:hover { background: #1c2128; }
+        a { color: #58a6ff; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .price { color: #3fb950; font-weight: bold; }
+        .source { display: inline-block; padding: 2px 8px; border-radius: 12px; font-size: 11px; }
+        .source-blocket { background: #1f6feb33; color: #58a6ff; }
+        .source-tradera { background: #23883433; color: #3fb950; }
+        .source-vinted { background: #a371f733; color: #bc8cff; }
+        .source-ebay { background: #f0883e33; color: #f0883e; }
+        .source-sellpy { background: #f778ba33; color: #f778ba; }
+        .category { display: inline-block; padding: 2px 8px; border-radius: 12px; font-size: 11px; background: #30363d; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🇸🇪 Sweden Second-Hand Tech Deals</h1>
+        <p class="subtitle">Updated: 2026-04-19 • Scraped from Blocket, Tradera, Vinted</p>
+        <div class="stats">
+            <div class="stat"><div class="stat-value">84</div><div class="stat-label">Total Deals</div></div>
+            <div class="stat"><div class="stat-value">50</div><div class="stat-label">Blocket</div></div>
+            <div class="stat"><div class="stat-value">25</div><div class="stat-label">Tradera</div></div>
+            <div class="stat"><div class="stat-value">9</div><div class="stat-label">Vinted</div></div>
+        </div>
+        <div class="filters">
+            <button class="filter-btn active" onclick="filterCategory('all')">All</button>
+            <button class="filter-btn" onclick="filterCategory('gpu')">GPU</button>
+            <button class="filter-btn" onclick="filterCategory('keyboard')">Keyboards</button>
+            <button class="filter-btn" onclick="filterCategory('ram')">RAM</button>
+            <button class="filter-btn" onclick="filterCategory('psu')">PSU</button>
+            <button class="filter-btn" onclick="filterCategory('pc')">PCs</button>
+            <button class="filter-btn" onclick="filterCategory('retro')">Retro</button>
+            <button class="filter-btn" onclick="filterCategory('gaming')">Gaming</button>
+            <button class="filter-btn" onclick="filterCategory('anime')">Anime</button>
+            <button class="filter-btn" onclick="filterCategory('poster')">Posters</button>
+        </div>
+        <table>
+            <thead><tr><th>Item</th><th>Price</th><th>Category</th><th>Source</th></tr></thead>
+            <tbody>
+                <tr data-category="keyboard">
+                    <td><a href="https://www.blocket.se/recommerce/forsale/item/22530882" target="_blank">Logitech tangentbord trådlöst svart</a></td>
+                    <td class="price">99 kr</td>
+                    <td><span class="category">keyboard</span></td>
+                    <td><span class="source source-blocket">blocket</span></td>
+                </tr>
+                <tr data-category="keyboard">
+                    <td><a href="https://www.tradera.com/item/340827/726695240/hyperx-gamingtangentbord-och-mus" target="_blank">HyperX Gamingtangentbord och Mus</a></td>
+                    <td class="price">100 kr</td>
+                    <td><span class="category">keyboard</span></td>
+                    <td><span class="source source-tradera">tradera</span></td>
+                </tr>
+                <tr data-category="gaming">
+                    <td><a href="https://www.tradera.com/item/260711/725311208/jabra-headset" target="_blank">Jabra Headset</a></td>
+                    <td class="price">100 kr</td>
+                    <td><span class="category">gaming</span></td>
+                    <td><span class="source source-tradera">tradera</span></td>
+                </tr>
+                <tr data-category="gaming">
+                    <td><a href="https://www.tradera.com/item/260711/727623667/plantronics-headset-med-mikrofon-bluetooth-headset-beg-" target="_blank">Plantronics headset Bluetooth</a></td>
+                    <td class="price">149 kr</td>
+                    <td><span class="category">gaming</span></td>
+                    <td><span class="source source-tradera">tradera</span></td>
+                </tr>
+                <tr data-category="keyboard">
+                    <td><a href="https://www.blocket.se/recommerce/forsale/item/22518915" target="_blank">Gaming Tangentbord Aula F75</a></td>
+                    <td class="price">150 kr</td>
+                    <td><span class="category">keyboard</span></td>
+                    <td><span class="source source-blocket">blocket</span></td>
+                </tr>
+                <tr data-category="anime">
+                    <td><a href="https://www.blocket.se/recommerce/forsale/item/21608660" target="_blank">Bandai Jujutsu Kaisen Megumi Fushiguro figur</a></td>
+                    <td class="price">189 kr</td>
+                    <td><span class="category">anime</span></td>
+                    <td><span class="source source-blocket">blocket</span></td>
+                </tr>
+                <tr data-category="gpu">
+                    <td><a href="https://www.tradera.com/item/341372/726695492/asus-strix-gtx980ti-dc3oc-6gd5-grafikkort" target="_blank">ASUS STRIX GTX980TI Grafikkort</a></td>
+                    <td class="price">237 kr</td>
+                    <td><span class="category">gpu</span></td>
+                    <td><span class="source source-tradera">tradera</span></td>
+                </tr>
+                <tr data-category="psu">
+                    <td><a href="https://www.blocket.se/recommerce/forsale/item/22524666" target="_blank">Nätaggregat 550w</a></td>
+                    <td class="price">250 kr</td>
+                    <td><span class="category">psu</span></td>
+                    <td><span class="source source-blocket">blocket</span></td>
+                </tr>
+                <tr data-category="psu">
+                    <td><a href="https://www.blocket.se/recommerce/forsale/item/22515896" target="_blank">Corsair CX650M Nätaggregat 650W</a></td>
+                    <td class="price">250 kr</td>
+                    <td><span class="category">psu</span></td>
+                    <td><span class="source source-blocket">blocket</span></td>
+                </tr>
+                <tr data-category="poster">
+                    <td><a href="https://www.blocket.se/recommerce/forsale/item/20074439" target="_blank">Pink Floyd konsert-poster 1977</a></td>
+                    <td class="price">250 kr</td>
+                    <td><span class="category">poster</span></td>
+                    <td><span class="source source-blocket">blocket</span></td>
+                </tr>
+                <tr data-category="anime">
+                    <td><a href="https://www.blocket.se/recommerce/forsale/item/21710138" target="_blank">Sega Spy x Family Anya Forger figur</a></td>
+                    <td class="price">259 kr</td>
+                    <td><span class="category">anime</span></td>
+                    <td><span class="source source-blocket">blocket</span></td>
+                </tr>
+                <tr data-category="anime">
+                    <td><a href="https://www.blocket.se/recommerce/forsale/item/21355887" target="_blank">Sarashina Ruka Coreful Figure Anime Taito</a></td>
+                    <td class="price">335 kr</td>
+                    <td><span class="category">anime</span></td>
+                    <td><span class="source source-blocket">blocket</span></td>
+                </tr>
+                <tr data-category="anime">
+                    <td><a href="https://www.tradera.com/item/1000954/727694211/carrot-one-piece-anime-figur" target="_blank">Carrot One Piece Anime Figur</a></td>
+                    <td class="price">350 kr</td>
+                    <td><span class="category">anime</span></td>
+                    <td><span class="source source-tradera">tradera</span></td>
+                </tr>
+                <tr data-category="keyboard">
+                    <td><a href="https://www.tradera.com/item/340827/723212190/logitech-tangentbord" target="_blank">Logitech tangentbord</a></td>
+                    <td class="price">390 kr</td>
+                    <td><span class="category">keyboard</span></td>
+                    <td><span class="source source-tradera">tradera</span></td>
+                </tr>
+                <tr data-category="poster">
+                    <td><a href="https://www.blocket.se/recommerce/forsale/item/20074739" target="_blank">Pink Floyd The Wall poster affisch</a></td>
+                    <td class="price">400 kr</td>
+                    <td><span class="category">poster</span></td>
+                    <td><span class="source source-blocket">blocket</span></td>
+                </tr>
+                <tr data-category="retro">
+                    <td><a href="https://www.tradera.com/item/301704/726384866/super-retro-trio-3-konsol" target="_blank">Super Retro Trio 3 konsol</a></td>
+                    <td class="price">419 kr</td>
+                    <td><span class="category">retro</span></td>
+                    <td><span class="source source-tradera">tradera</span></td>
+                </tr>
+                <tr data-category="gpu">
+                    <td><a href="https://www.tradera.com/item/341372/726453044/asus-geforce-gtx-780-ti-directcu-ii" target="_blank">ASUS GeForce GTX 780 Ti DirectCU II</a></td>
+                    <td class="price">438 kr</td>
+                    <td><span class="category">gpu</span></td>
+                    <td><span class="source source-tradera">tradera</span></td>
+                </tr>
+                <tr data-category="gpu">
+                    <td><a href="https://www.vinted.se/items/8670836598-karta-graficzna-geforce-gtx-780-gpu" target="_blank">GeForce GTX 780 GPU Gigabyte</a></td>
+                    <td class="price">439 kr</td>
+                    <td><span class="category">gpu</span></td>
+                    <td><span class="source source-vinted">vinted</span></td>
+                </tr>
+                <tr data-category="keyboard">
+                    <td><a href="https://www.blocket.se/recommerce/forsale/item/22526836" target="_blank">Cherry MX Board 1.0 TKL tangentbord</a></td>
+                    <td class="price">499 kr</td>
+                    <td><span class="category">keyboard</span></td>
+                    <td><span class="source source-blocket">blocket</span></td>
+                </tr>
+                <tr data-category="keyboard">
+                    <td><a href="https://www.blocket.se/recommerce/forsale/item/22529017" target="_blank">Ducky Tangentbord</a></td>
+                    <td class="price">500 kr</td>
+                    <td><span class="category">keyboard</span></td>
+                    <td><span class="source source-blocket">blocket</span></td>
+                </tr>
+                <tr data-category="retro">
+                    <td><a href="https://www.blocket.se/recommerce/forsale/item/22419046" target="_blank">Anbernic RG28XX handhållen spelkonsol retro</a></td>
+                    <td class="price">500 kr</td>
+                    <td><span class="category">retro</span></td>
+                    <td><span class="source source-blocket">blocket</span></td>
+                </tr>
+                <tr data-category="gpu">
+                    <td><a href="https://www.vinted.se/items/8670697160-zotac-geforce-gtx-1060" target="_blank">Zotac GeForce GTX 1060</a></td>
+                    <td class="price">500 kr</td>
+                    <td><span class="category">gpu</span></td>
+                    <td><span class="source source-vinted">vinted</span></td>
+                </tr>
+                <tr data-category="psu">
+                    <td><a href="https://www.blocket.se/recommerce/forsale/item/22520061" target="_blank">Corsair CX650 nätaggregat 650W</a></td>
+                    <td class="price">600 kr</td>
+                    <td><span class="category">psu</span></td>
+                    <td><span class="source source-blocket">blocket</span></td>
+                </tr>
+                <tr data-category="psu">
+                    <td><a href="https://www.blocket.se/recommerce/forsale/item/22396612" target="_blank">Seasonic Focus GX-850 nätaggregat 850W</a></td>
+                    <td class="price">600 kr</td>
+                    <td><span class="category">psu</span></td>
+                    <td><span class="source source-blocket">blocket</span></td>
+                </tr>
+                <tr data-category="gpu">
+                    <td><a href="https://www.vinted.se/items/8661208585-sapphire-nitro-radeon-rx-580-8gb-grafikkort" target="_blank">Sapphire Nitro+ Radeon RX 580 8GB</a></td>
+                    <td class="price">625 kr</td>
+                    <td><span class="category">gpu</span></td>
+                    <td><span class="source source-vinted">vinted</span></td>
+                </tr>
+                <tr data-category="anime">
+                    <td><a href="https://www.blocket.se/recommerce/forsale/item/22412996" target="_blank">Demon Slayer Rengoku figur</a></td>
+                    <td class="price">649 kr</td>
+                    <td><span class="category">anime</span></td>
+                    <td><span class="source source-blocket">blocket</span></td>
+                </tr>
+                <tr data-category="psu">
+                    <td><a href="https://www.blocket.se/recommerce/forsale/item/22471364" target="_blank">Corsair RM850x nätaggregat 850W</a></td>
+                    <td class="price">650 kr</td>
+                    <td><span class="category">psu</span></td>
+                    <td><span class="source source-blocket">blocket</span></td>
+                </tr>
+                <tr data-category="retro">
+                    <td><a href="https://www.tradera.com/item/301704/727744893/intv-system-iii-konsol-med-3-spel-intellivision-cib-komplett-med-box" target="_blank">INtv System III Konsol IntelliVision</a></td>
+                    <td class="price">695 kr</td>
+                    <td><span class="category">retro</span></td>
+                    <td><span class="source source-tradera">tradera</span></td>
+                </tr>
+                <tr data-category="retro">
+                    <td><a href="https://www.blocket.se/recommerce/forsale/item/22060060" target="_blank">Retro-bit Retro Duo v3.0 Nintendo 8-bit 16-bit</a></td>
+                    <td class="price">700 kr</td>
+                    <td><span class="category">retro</span></td>
+                    <td><span class="source source-blocket">blocket</span></td>
+                </tr>
+                <tr data-category="poster">
+                    <td><a href="https://www.blocket.se/recommerce/forsale/item/19181237" target="_blank">Metallica St Anger Poster 70x50cm</a></td>
+                    <td class="price">700 kr</td>
+                    <td><span class="category">poster</span></td>
+                    <td><span class="source source-blocket">blocket</span></td>
+                </tr>
+                <tr data-category="gpu">
+                    <td><a href="https://www.tradera.com/item/341372/726452241/sapphire-radeon-x1950-pro-grafikkort" target="_blank">Sapphire Radeon X1950 Pro grafikkort</a></td>
+                    <td class="price">700 kr</td>
+                    <td><span class="category">gpu</span></td>
+                    <td><span class="source source-tradera">tradera</span></td>
+                </tr>
+                <tr data-category="gaming">
+                    <td><a href="https://www.tradera.com/item/260711/726153634/oslagbart-headset" target="_blank">OSLAGBART HEADSET</a></td>
+                    <td class="price">700 kr</td>
+                    <td><span class="category">gaming</span></td>
+                    <td><span class="source source-tradera">tradera</span></td>
+                </tr>
+                <tr data-category="gpu">
+                    <td><a href="https://www.blocket.se/recommerce/forsale/item/21608662" target="_blank">ASUS Strix GTX 970 4GB GPU</a></td>
+                    <td class="price">800 kr</td>
+                    <td><span class="category">gpu</span></td>
+                    <td><span class="source source-blocket">blocket</span></td>
+                </tr>
+                <tr data-category="gaming">
+                    <td><a href="https://www.blocket.se/recommerce/forsale/item/22513913" target="_blank">Logitech Pro X Wireless Headset</a></td>
+                    <td class="price">800 kr</td>
+                    <td><span class="category">gaming</span></td>
+                    <td><span class="source source-blocket">blocket</span></td>
+                </tr>
+                <tr data-category="anime">
+                    <td><a href="https://www.blocket.se/recommerce/forsale/item/21565805" target="_blank">Anime figur Sansei Muramasa Maid 1/7</a></td>
+                    <td class="price">999 kr</td>
+                    <td><span class="category">anime</span></td>
+                    <td><span class="source source-blocket">blocket</span></td>
+                </tr>
+                <tr data-category="keyboard">
+                    <td><a href="https://www.blocket.se/recommerce/forsale/item/22529130" target="_blank">Razer Ornata Chroma tangentbord med RGB</a></td>
+                    <td class="price">1,000 kr</td>
+                    <td><span class="category">keyboard</span></td>
+                    <td><span class="source source-blocket">blocket</span></td>
+                </tr>
+                <tr data-category="ram">
+                    <td><a href="https://www.tradera.com/item/1000279/727504685/kingston-fury-impact-ddr5-ram-16gb" target="_blank">Kingston Fury Impact DDR5 RAM 16GB</a></td>
+                    <td class="price">1,000 kr</td>
+                    <td><span class="category">ram</span></td>
+                    <td><span class="source source-tradera">tradera</span></td>
+                </tr>
+                <tr data-category="retro">
+                    <td><a href="https://www.tradera.com/item/302271/727485716/atari-retro-handhallen-konsol-med-50-inbyggda-spel" target="_blank">Atari Retro Handhållen Konsol 50 spel</a></td>
+                    <td class="price">1,000 kr</td>
+                    <td><span class="category">retro</span></td>
+                    <td><span class="source source-tradera">tradera</span></td>
+                </tr>
+                <tr data-category="gpu">
+                    <td><a href="https://www.tradera.com/item/341372/726755143/evga-nvidia-geforce-rtx-3070-xc3-ultra-8gb-grafikkort-gpu-" target="_blank">EVGA Nvidia GeForce RTX 3070 XC3 Ultra 8GB</a></td>
+                    <td class="price">1,090 kr</td>
+                    <td><span class="category">gpu</span></td>
+                    <td><span class="source source-tradera">tradera</span></td>
+                </tr>
+                <tr data-category="gpu">
+                    <td><a href="https://www.blocket.se/recommerce/forsale/item/22147871" target="_blank">GeForce RTX 2060 grafikkort (GPU)</a></td>
+                    <td class="price">1,100 kr</td>
+                    <td><span class="category">gpu</span></td>
+                    <td><span class="source source-blocket">blocket</span></td>
+                </tr>
+                <tr data-category="retro">
+                    <td><a href="https://www.blocket.se/recommerce/forsale/item/22409689" target="_blank">Xbox 360 E + 2 kontroller + flera spel</a></td>
+                    <td class="price">1,100 kr</td>
+                    <td><span class="category">retro</span></td>
+                    <td><span class="source source-blocket">blocket</span></td>
+                </tr>
+                <tr data-category="gpu">
+                    <td><a href="https://www.vinted.se/items/8686700011-gtx-1080-zotac-triple-fans" target="_blank">GTX 1080 Zotac Triple Fans</a></td>
+                    <td class="price">1,150 kr</td>
+                    <td><span class="category">gpu</span></td>
+                    <td><span class="source source-vinted">vinted</span></td>
+                </tr>
+                <tr data-category="gaming">
+                    <td><a href="https://www.blocket.se/recommerce/forsale/item/22514049" target="_blank">Samsung Galaxy Buds3 Pro headset silver</a></td>
+                    <td class="price">1,199 kr</td>
+                    <td><span class="category">gaming</span></td>
+                    <td><span class="source source-blocket">blocket</span></td>
+                </tr>
+                <tr data-category="gpu">
+                    <td><a href="https://www.vinted.se/items/8590423606-karta-graficzna-palit-geforce-gtx-1660-super-stormx-6gb" target="_blank">Palit Geforce GTX 1660 Super 6GB</a></td>
+                    <td class="price">1,288 kr</td>
+                    <td><span class="category">gpu</span></td>
+                    <td><span class="source source-vinted">vinted</span></td>
+                </tr>
+                <tr data-category="retro">
+                    <td><a href="https://www.tradera.com/item/301704/725729121/epoch-tv-vader-retro-konsol-fran-japan-1970-80-tal" target="_blank">Epoch TV Vader retro konsol Japan 1970-80</a></td>
+                    <td class="price">1,295 kr</td>
+                    <td><span class="category">retro</span></td>
+                    <td><span class="source source-tradera">tradera</span></td>
+                </tr>
+                <tr data-category="psu">
+                    <td><a href="https://www.blocket.se/recommerce/forsale/item/22500524" target="_blank">Asus ROG Thor 850W Platinum nätaggregat</a></td>
+                    <td class="price">1,299 kr</td>
+                    <td><span class="category">psu</span></td>
+                    <td><span class="source source-blocket">blocket</span></td>
+                </tr>
+                <tr data-category="gpu">
+                    <td><a href="https://www.vinted.se/items/8679762092-rtx-3050-6gb" target="_blank">RTX 3050 6GB</a></td>
+                    <td class="price">1,368 kr</td>
+                    <td><span class="category">gpu</span></td>
+                    <td><span class="source source-vinted">vinted</span></td>
+                </tr>
+                <tr data-category="ram">
+                    <td><a href="https://www.tradera.com/item/1000280/727400193/kingston-fury-beast-ddr5-ram-16gb-2x8gb-" target="_blank">Kingston Fury Beast DDR5 RAM 16GB (2x8GB)</a></td>
+                    <td class="price">1,398 kr</td>
+                    <td><span class="category">ram</span></td>
+                    <td><span class="source source-tradera">tradera</span></td>
+                </tr>
+                <tr data-category="poster">
+                    <td><a href="https://www.blocket.se/recommerce/forsale/item/22464521" target="_blank">Pokemon Ascended Heroes Mega Lucario Poster</a></td>
+                    <td class="price">1,450 kr</td>
+                    <td><span class="category">poster</span></td>
+                    <td><span class="source source-blocket">blocket</span></td>
+                </tr>
+                <tr data-category="keyboard">
+                    <td><a href="https://www.tradera.com/item/340827/727340573/zoom65-hotswap-premium-mekaniskt-tangentbord-med-rysk-engelska-keycaps" target="_blank">Zoom65 Premium Mekaniskt tangentbord</a></td>
+                    <td class="price">1,457 kr</td>
+                    <td><span class="category">keyboard</span></td>
+                    <td><span class="source source-tradera">tradera</span></td>
+                </tr>
+                <tr data-category="keyboard">
+                    <td><a href="https://www.blocket.se/recommerce/forsale/item/22523345" target="_blank">Nuphy Air75 V3 Mekaniskt tangentbord</a></td>
+                    <td class="price">1,499 kr</td>
+                    <td><span class="category">keyboard</span></td>
+                    <td><span class="source source-blocket">blocket</span></td>
+                </tr>
+                <tr data-category="gpu">
+                    <td><a href="https://www.blocket.se/recommerce/forsale/item/18748271" target="_blank">1070 8gb vattenkyld GPU</a></td>
+                    <td class="price">1,500 kr</td>
+                    <td><span class="category">gpu</span></td>
+                    <td><span class="source source-blocket">blocket</span></td>
+                </tr>
+                <tr data-category="retro">
+                    <td><a href="https://www.blocket.se/recommerce/forsale/item/21638415" target="_blank">Super Retro Trio spelkonsol med handkontroller</a></td>
+                    <td class="price">1,500 kr</td>
+                    <td><span class="category">retro</span></td>
+                    <td><span class="source source-blocket">blocket</span></td>
+                </tr>
+                <tr data-category="gpu">
+                    <td><a href="https://www.tradera.com/item/341372/726213744/nvidia-grafikkort-cmp90hx-10gb-gddr6x-mining-ai-gpu" target="_blank">NVIDIA Grafikkort CMP90HX 10Gb Mining/AI GPU</a></td>
+                    <td class="price">1,554 kr</td>
+                    <td><span class="category">gpu</span></td>
+                    <td><span class="source source-tradera">tradera</span></td>
+                </tr>
+                <tr data-category="ram">
+                    <td><a href="https://www.blocket.se/recommerce/forsale/item/22411126" target="_blank">ddr5 ram 16gb 6000mhz cl36</a></td>
+                    <td class="price">1,650 kr</td>
+                    <td><span class="category">ram</span></td>
+                    <td><span class="source source-blocket">blocket</span></td>
+                </tr>
+                <tr data-category="keyboard">
+                    <td><a href="https://www.blocket.se/recommerce/forsale/item/22530758" target="_blank">Wooting 60HE tangentbord kompakt svart</a></td>
+                    <td class="price">1,800 kr</td>
+                    <td><span class="category">keyboard</span></td>
+                    <td><span class="source source-blocket">blocket</span></td>
+                </tr>
+                <tr data-category="ram">
+                    <td><a href="https://www.tradera.com/item/1000280/727512095/samsung-ddr5-ram-32gb-2x16gb-5600mhz" target="_blank">Samsung DDR5 RAM 32GB 5600MHz</a></td>
+                    <td class="price">2,000 kr</td>
+                    <td><span class="category">ram</span></td>
+                    <td><span class="source source-tradera">tradera</span></td>
+                </tr>
+                <tr data-category="anime">
+                    <td><a href="https://www.tradera.com/item/290913/724321792/anime-figur-vtuber-snuffy" target="_blank">Anime Figur Vtuber Snuffy</a></td>
+                    <td class="price">2,400 kr</td>
+                    <td><span class="category">anime</span></td>
+                    <td><span class="source source-tradera">tradera</span></td>
+                </tr>
+                <tr data-category="gpu">
+                    <td><a href="https://www.blocket.se/recommerce/forsale/item/22251901" target="_blank">ASUS TUF Gaming GeForce RTX 3060 Ti OC 8GB GDDR6 GPU grafikkort</a></td>
+                    <td class="price">2,489 kr</td>
+                    <td><span class="category">gpu</span></td>
+                    <td><span class="source source-blocket">blocket</span></td>
+                </tr>
+                <tr data-category="gpu">
+                    <td><a href="https://www.blocket.se/recommerce/forsale/item/22068601" target="_blank">NVIDIA Tesla P100 AI GPU</a></td>
+                    <td class="price">2,500 kr</td>
+                    <td><span class="category">gpu</span></td>
+                    <td><span class="source source-blocket">blocket</span></td>
+                </tr>
+                <tr data-category="retro">
+                    <td><a href="https://www.blocket.se/recommerce/forsale/item/22399745" target="_blank">Nyrenoverad Game Boy Advance</a></td>
+                    <td class="price">2,500 kr</td>
+                    <td><span class="category">retro</span></td>
+                    <td><span class="source source-blocket">blocket</span></td>
+                </tr>
+                <tr data-category="gpu">
+                    <td><a href="https://www.vinted.se/items/8683774337-karta-graficzna-nvidia-rtx-3060-gaming-oc-rev-20" target="_blank">NVIDIA RTX 3060 Gaming OC</a></td>
+                    <td class="price">2,581 kr</td>
+                    <td><span class="category">gpu</span></td>
+                    <td><span class="source source-vinted">vinted</span></td>
+                </tr>
+                <tr data-category="ram">
+                    <td><a href="https://www.blocket.se/recommerce/forsale/item/22428220" target="_blank">Crucial Pro DDR5 RAM 32GB 5600 MHz</a></td>
+                    <td class="price">2,600 kr</td>
+                    <td><span class="category">ram</span></td>
+                    <td><span class="source source-blocket">blocket</span></td>
+                </tr>
+                <tr data-category="anime">
+                    <td><a href="https://www.tradera.com/item/290913/724320320/anime-figur-jujutsu-kaisen-kvinna" target="_blank">Anime Figur jujutsu kaisen kvinna</a></td>
+                    <td class="price">2,700 kr</td>
+                    <td><span class="category">anime</span></td>
+                    <td><span class="source source-tradera">tradera</span></td>
+                </tr>
+                <tr data-category="gaming">
+                    <td><a href="https://www.blocket.se/recommerce/forsale/item/22503775" target="_blank">Meta Quest VR-headset 3S</a></td>
+                    <td class="price">2,750 kr</td>
+                    <td><span class="category">gaming</span></td>
+                    <td><span class="source source-blocket">blocket</span></td>
+                </tr>
+                <tr data-category="ram">
+                    <td><a href="https://www.tradera.com/item/1000280/726731111/corsair-vengeance-ddr5-ram-32gb-2x16gb-5200mhz" target="_blank">Corsair Vengeance DDR5 RAM 32GB 5200MHz</a></td>
+                    <td class="price">3,000 kr</td>
+                    <td><span class="category">ram</span></td>
+                    <td><span class="source source-tradera">tradera</span></td>
+                </tr>
+                <tr data-category="gpu">
+                    <td><a href="https://www.vinted.se/items/8670275394-karta-graficzna-sapphire-nitro-radeon-rx-6750xt-12gb" target="_blank">Sapphire Nitro Radeon RX 6750XT 12GB</a></td>
+                    <td class="price">3,094 kr</td>
+                    <td><span class="category">gpu</span></td>
+                    <td><span class="source source-vinted">vinted</span></td>
+                </tr>
+                <tr data-category="ram">
+                    <td><a href="https://www.blocket.se/recommerce/forsale/item/22350369" target="_blank">32 GB 6000mhz Corsair Vengeance RGB DDR5 RAM</a></td>
+                    <td class="price">3,200 kr</td>
+                    <td><span class="category">ram</span></td>
+                    <td><span class="source source-blocket">blocket</span></td>
+                </tr>
+                <tr data-category="ram">
+                    <td><a href="https://www.blocket.se/recommerce/forsale/item/22492024" target="_blank">Corsair Dominator DDR5 RAM-minne 32GB</a></td>
+                    <td class="price">3,500 kr</td>
+                    <td><span class="category">ram</span></td>
+                    <td><span class="source source-blocket">blocket</span></td>
+                </tr>
+                <tr data-category="gaming">
+                    <td><a href="https://www.blocket.se/recommerce/forsale/item/22507417" target="_blank">Sennheiser HMD 27 Headset Broadcast ANC</a></td>
+                    <td class="price">3,500 kr</td>
+                    <td><span class="category">gaming</span></td>
+                    <td><span class="source source-blocket">blocket</span></td>
+                </tr>
+                <tr data-category="ram">
+                    <td><a href="https://www.blocket.se/recommerce/forsale/item/22529135" target="_blank">Corsair Vengeance 32gb DDR5 Ram 6000mhz cl30</a></td>
+                    <td class="price">3,700 kr</td>
+                    <td><span class="category">ram</span></td>
+                    <td><span class="source source-blocket">blocket</span></td>
+                </tr>
+                <tr data-category="anime">
+                    <td><a href="https://www.tradera.com/item/1000954/726261983/anime-figur-lucy-elfen-lied" target="_blank">Anime Figur Lucy Elfen Lied</a></td>
+                    <td class="price">3,800 kr</td>
+                    <td><span class="category">anime</span></td>
+                    <td><span class="source source-tradera">tradera</span></td>
+                </tr>
+                <tr data-category="gaming">
+                    <td><a href="https://www.blocket.se/recommerce/forsale/item/22527018" target="_blank">Meta Quest 3 VR-headset 128 GB</a></td>
+                    <td class="price">5,000 kr</td>
+                    <td><span class="category">gaming</span></td>
+                    <td><span class="source source-blocket">blocket</span></td>
+                </tr>
+                <tr data-category="ram">
+                    <td><a href="https://www.blocket.se/recommerce/forsale/item/19396772" target="_blank">Kingston Fury Beast DDR5 64GB</a></td>
+                    <td class="price">5,399 kr</td>
+                    <td><span class="category">ram</span></td>
+                    <td><span class="source source-blocket">blocket</span></td>
+                </tr>
+                <tr data-category="ram">
+                    <td><a href="https://www.tradera.com/item/1000280/724097122/kingston-fury-beast-ddr5-ram-64gb-2x32gb-5200mt-s" target="_blank">Kingston FURY BEAST DDR5 64GB 5200MT/s</a></td>
+                    <td class="price">5,750 kr</td>
+                    <td><span class="category">ram</span></td>
+                    <td><span class="source source-tradera">tradera</span></td>
+                </tr>
+                <tr data-category="ram">
+                    <td><a href="https://www.tradera.com/item/1000280/727054807/-ooppnad-ddr5-ram-64gb-2x-2x16gb-6000mhz" target="_blank">DDR5 RAM 64GB 2x(2x16GB) 6000MHz oöppnad</a></td>
+                    <td class="price">6,250 kr</td>
+                    <td><span class="category">ram</span></td>
+                    <td><span class="source source-tradera">tradera</span></td>
+                </tr>
+                <tr data-category="pc">
+                    <td><a href="https://www.blocket.se/recommerce/forsale/item/22370535" target="_blank">Speldator RTX 3060 Ti Ryzen 5 5600X 16GB</a></td>
+                    <td class="price">6,400 kr</td>
+                    <td><span class="category">pc</span></td>
+                    <td><span class="source source-blocket">blocket</span></td>
+                </tr>
+                <tr data-category="gpu">
+                    <td><a href="https://www.vinted.se/items/8693582364-karta-graficzna-zotac-gaming-geforce-rtx-4070-ti-super-solid-16gb-gddr6x-zt-d40730r-10p" target="_blank">Zotac Gaming GeForce RTX 4070 Ti SUPER 16GB</a></td>
+                    <td class="price">7,482 kr</td>
+                    <td><span class="category">gpu</span></td>
+                    <td><span class="source source-vinted">vinted</span></td>
+                </tr>
+                <tr data-category="gpu">
+                    <td><a href="https://www.blocket.se/recommerce/forsale/item/22160384" target="_blank">GPU 3070/Cpu Intel 12400f/64GB RAM</a></td>
+                    <td class="price">9,000 kr</td>
+                    <td><span class="category">gpu</span></td>
+                    <td><span class="source source-blocket">blocket</span></td>
+                </tr>
+                <tr data-category="pc">
+                    <td><a href="https://www.blocket.se/recommerce/forsale/item/22516022" target="_blank">Gaming Dator i7 11700K RTX 3060 Ti 32GB</a></td>
+                    <td class="price">11,750 kr</td>
+                    <td><span class="category">pc</span></td>
+                    <td><span class="source source-blocket">blocket</span></td>
+                </tr>
+                <tr data-category="pc">
+                    <td><a href="https://www.blocket.se/recommerce/forsale/item/22525676" target="_blank">Gaming dator 9070 XT, 32GB DDR5, AM5</a></td>
+                    <td class="price">18,500 kr</td>
+                    <td><span class="category">pc</span></td>
+                    <td><span class="source source-blocket">blocket</span></td>
+                </tr>
+                <tr data-category="pc">
+                    <td><a href="https://www.blocket.se/recommerce/forsale/item/22516213" target="_blank">Gaming dator RTX 4080 64GB ddr5</a></td>
+                    <td class="price">20,000 kr</td>
+                    <td><span class="category">pc</span></td>
+                    <td><span class="source source-blocket">blocket</span></td>
+                </tr>
+                <tr data-category="pc">
+                    <td><a href="https://www.blocket.se/recommerce/forsale/item/22526003" target="_blank">Nybyggd Gaming dator 9070 XT, 7800X3D, 32GB</a></td>
+                    <td class="price">20,500 kr</td>
+                    <td><span class="category">pc</span></td>
+                    <td><span class="source source-blocket">blocket</span></td>
+                </tr>
+                <tr data-category="pc">
+                    <td><a href="https://www.blocket.se/recommerce/forsale/item/22515867" target="_blank">Gaming dator RTX 5080 Ryzen 7 9800X3D</a></td>
+                    <td class="price">31,500 kr</td>
+                    <td><span class="category">pc</span></td>
+                    <td><span class="source source-blocket">blocket</span></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script>
+        function filterCategory(cat) {
+            document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+            event.target.classList.add('active');
+            document.querySelectorAll('tbody tr').forEach(row => {
+                if (cat === 'all' || row.dataset.category === cat) {
+                    row.style.display = '';
+                } else {
+                    row.style.display = 'none';
+                }
+            });
+        }
+    </script>
+</body>
+</html>
