@@ -392,6 +392,10 @@
         <span class="icon">⚡</span> all deals
         <span class="count" id="count-all">0</span>
       </a>
+      <a class="sidebar-link" data-cat="cars" onclick="filterCat('cars',this)">
+        <span class="icon">🚗</span> Cars
+        <span class="count" id="count-cars">0</span>
+      </a>
       <a class="sidebar-link" data-cat="gpu" onclick="filterCat('gpu',this)">
         <span class="icon">🎮</span> GPUs
         <span class="count" id="count-gpu">0</span>
@@ -503,6 +507,7 @@
 
   <script>
     const CATS = [
+      { key: 'cars', label: 'Cars', icon: '🚗' },
       { key: 'gpu', label: 'GPUs', icon: '🎮' },
       { key: 'retro', label: 'Retro Consoles', icon: '🕹️' },
       { key: 'keyboard', label: 'Keyboards', icon: '⌨️' },
@@ -525,6 +530,7 @@
 
     function normalizeCategory(item) {
       const c = (item.category || '').toLowerCase();
+      if (c.includes('cars') || c.includes('bil') || c.includes('volvo') || c.includes('bmw') || c.includes('audi') || c.includes('fordon')) return 'cars';
       if (c.includes('gpu') || c.includes('grafik') || c.includes('rtx') || c.includes('gtx') || c.includes('radeon')) return 'gpu';
       if (c.includes('retro') || c.includes('konsol') || c.includes('console') || c.includes('nintendo') || c.includes('sega') || c.includes('playstation') || c.includes('mega drive') || c.includes('gamecube')) return 'retro';
       if (c.includes('keyboard') || c.includes('tangentbord')) return 'keyboard';
@@ -535,6 +541,7 @@
       if (c.includes('anime') || c.includes('figurin') || c.includes('figur') || c.includes('figma') || c.includes('nendoroid') || c.includes('collectible')) return 'anime';
       if (c.includes('poster') || c.includes('affisch') || c.includes('print') || c.includes('konst') || c.includes('art')) return 'poster';
       const t = (item.title || '').toLowerCase();
+      if (t.match(/\b(bil|volvo|bmw|audi|mercedes|toyota|ford|skoda|kia|nissan|renault)\b/)) return 'cars';
       if (t.match(/rtx|gtx|radeon|gpu|grafikkort/)) return 'gpu';
       if (t.match(/nintendo|sega|mega drive|gamecube|super nintendo|playstation|atari/)) return 'retro';
       if (t.match(/keyboard|tangentbord|mechanical/)) return 'keyboard';

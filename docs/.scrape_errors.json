@@ -1,0 +1,90 @@
+[
+  {
+    "vendor": "tradera",
+    "query": "gpu",
+    "category": "gpu",
+    "errors": [
+      "no items extracted — DOM may have changed (page: 508475 bytes)"
+    ]
+  },
+  {
+    "vendor": "tradera",
+    "query": "grafikkort",
+    "category": "gpu",
+    "errors": [
+      "no items extracted — DOM may have changed (page: 582940 bytes)"
+    ]
+  },
+  {
+    "vendor": "tradera",
+    "query": "tangentbord",
+    "category": "keyboard",
+    "errors": [
+      "no items extracted — DOM may have changed (page: 576370 bytes)"
+    ]
+  },
+  {
+    "vendor": "tradera",
+    "query": "ram ddr5",
+    "category": "ram",
+    "errors": [
+      "no items extracted — DOM may have changed (page: 610925 bytes)"
+    ]
+  },
+  {
+    "vendor": "tradera",
+    "query": "ram ddr4",
+    "category": "ram",
+    "errors": [
+      "no items extracted — DOM may have changed (page: 572808 bytes)"
+    ]
+  },
+  {
+    "vendor": "tradera",
+    "query": "nätaggregat",
+    "category": "psu",
+    "errors": [
+      "no items extracted — DOM may have changed (page: 561977 bytes)"
+    ]
+  },
+  {
+    "vendor": "tradera",
+    "query": "bil",
+    "category": "cars",
+    "errors": [
+      "no items extracted — DOM may have changed (page: 683260 bytes)"
+    ]
+  },
+  {
+    "vendor": "tradera",
+    "query": "volvo",
+    "category": "cars",
+    "errors": [
+      "no items extracted — DOM may have changed (page: 633564 bytes)"
+    ]
+  },
+  {
+    "vendor": "tradera",
+    "query": "bmw",
+    "category": "cars",
+    "errors": [
+      "no items extracted — DOM may have changed (page: 632404 bytes)"
+    ]
+  },
+  {
+    "vendor": "tradera",
+    "query": "nintendo 64",
+    "category": "retro",
+    "errors": [
+      "no items extracted — DOM may have changed (page: 550308 bytes)"
+    ]
+  },
+  {
+    "vendor": "tradera",
+    "query": "retro konsol",
+    "category": "retro",
+    "errors": [
+      "no items extracted — DOM may have changed (page: 557015 bytes)"
+    ]
+  }
+]
