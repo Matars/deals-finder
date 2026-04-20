@@ -9,9 +9,10 @@
       "source": "blocket",
       "category": "gpu",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 7500,
+      "original_price_is_estimated": true,
+      "discount_percent": null,
+      "product_model": "RTX 4070"
     },
     {
       "title": "ASUS TUF Gaming GeForce RTX 3060 Ti OC 8GB GDDR6 GPU grafikkort",
@@ -20,9 +21,10 @@
       "source": "blocket",
       "category": "gpu",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 5500,
+      "original_price_is_estimated": true,
+      "discount_percent": 55,
+      "product_model": "RTX 3060 ti"
     },
     {
       "title": "GPU 3070/Cpu Intel 12400f/64GB RAM",
@@ -31,9 +33,10 @@
       "source": "blocket",
       "category": "gpu",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 3500,
+      "original_price_is_estimated": true,
+      "discount_percent": null,
+      "product_model": null
     },
     {
       "title": "GeForce RTX 2060 grafikkort (GPU)",
@@ -42,9 +45,10 @@
       "source": "blocket",
       "category": "gpu",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 4000,
+      "original_price_is_estimated": true,
+      "discount_percent": 72,
+      "product_model": "RTX 2060"
     },
     {
       "title": "NVIDIA Tesla P100 AI GPU",
@@ -53,9 +57,10 @@
       "source": "blocket",
       "category": "gpu",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 5000,
+      "original_price_is_estimated": true,
+      "discount_percent": 50,
+      "product_model": "Tesla P100"
     },
     {
       "title": "ASUS Strix GTX 970 4GB – Stabil & prisvärd gaming GPU",
@@ -64,9 +69,10 @@
       "source": "blocket",
       "category": "gpu",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 1800,
+      "original_price_is_estimated": true,
+      "discount_percent": 56,
+      "product_model": "GTX 970"
     },
     {
       "title": "1070 8gb vattenkyld GPU",
@@ -75,9 +81,10 @@
       "source": "blocket",
       "category": "gpu",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 3500,
+      "original_price_is_estimated": true,
+      "discount_percent": 57,
+      "product_model": null
     },
     {
       "title": "Oöppnade Corsair Vengeance 32gb DDR5 Ram, 6000mhz cl30",
@@ -86,9 +93,10 @@
       "source": "blocket",
       "category": "ram",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 1200,
+      "original_price_is_estimated": true,
+      "discount_percent": null,
+      "product_model": "DDR5 32GB"
     },
     {
       "title": "Corsair Dominator DDR5 RAM-minne svart",
@@ -97,9 +105,10 @@
       "source": "blocket",
       "category": "ram",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 600,
+      "original_price_is_estimated": true,
+      "discount_percent": null,
+      "product_model": null
     },
     {
       "title": "Corsair Vengeance RAM DDR5 32GB cl36 6000MHZ (AMD)",
@@ -108,9 +117,10 @@
       "source": "blocket",
       "category": "ram",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 1200,
+      "original_price_is_estimated": true,
+      "discount_percent": null,
+      "product_model": "DDR5 32GB"
     },
     {
       "title": "Corsair Dominator Titanium RAM-minne DDR5 32GB (2x16GB) 6000MHz/s",
@@ -119,9 +129,10 @@
       "source": "blocket",
       "category": "ram",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 1200,
+      "original_price_is_estimated": true,
+      "discount_percent": null,
+      "product_model": "DDR5 32GB"
     },
     {
       "title": "Crucial Pro DDR5 RAM-minne 32GB (2x16GB) 5600 MHz UDIMM",
@@ -130,9 +141,10 @@
       "source": "blocket",
       "category": "ram",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 1200,
+      "original_price_is_estimated": true,
+      "discount_percent": null,
+      "product_model": "DDR5 32GB"
     },
     {
       "title": "ddr5 ram 16gb 6000mhz cl36",
@@ -141,9 +153,10 @@
       "source": "blocket",
       "category": "ram",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 700,
+      "original_price_is_estimated": true,
+      "discount_percent": null,
+      "product_model": "DDR5 16GB"
     },
     {
       "title": "Nätaggregat på 550w",
@@ -152,9 +165,10 @@
       "source": "blocket",
       "category": "psu",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 13743,
+      "original_price_is_estimated": true,
+      "discount_percent": 98,
+      "product_model": "550W PSU"
     },
     {
       "title": "Corsair CX650 nätaggregat 650W ATX svart",
@@ -163,9 +177,10 @@
       "source": "blocket",
       "category": "psu",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 13743,
+      "original_price_is_estimated": true,
+      "discount_percent": 96,
+      "product_model": "Corsair 650W"
     },
     {
       "title": "Corsair CX650M Nätaggregat 650W (PSU)",
@@ -174,9 +189,10 @@
       "source": "blocket",
       "category": "psu",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 13743,
+      "original_price_is_estimated": true,
+      "discount_percent": 98,
+      "product_model": "Corsair 650W"
     },
     {
       "title": "Nätaggregat / PSU 650W",
@@ -185,9 +201,10 @@
       "source": "blocket",
       "category": "psu",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 13743,
+      "original_price_is_estimated": true,
+      "discount_percent": 98,
+      "product_model": "650W PSU"
     },
     {
       "title": "Asus ROG Thor 850W Platinum nätaggregat",
@@ -196,9 +213,10 @@
       "source": "blocket",
       "category": "psu",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 13743,
+      "original_price_is_estimated": true,
+      "discount_percent": 91,
+      "product_model": "Asus 850W"
     },
     {
       "title": "Corsair RM850x nätaggregat 850W svart",
@@ -207,9 +225,10 @@
       "source": "blocket",
       "category": "psu",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 13743,
+      "original_price_is_estimated": true,
+      "discount_percent": 95,
+      "product_model": "Corsair 850W"
     },
     {
       "title": "Gaming Dator / i5 / RX 580 / 8 GB",
@@ -218,9 +237,10 @@
       "source": "blocket",
       "category": "pc",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 8000,
+      "original_price_is_estimated": true,
+      "discount_percent": 65,
+      "product_model": null
     },
     {
       "title": "Gaming Dator / i7 / RX 580 / 16 GB",
@@ -229,9 +249,10 @@
       "source": "blocket",
       "category": "pc",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 8000,
+      "original_price_is_estimated": true,
+      "discount_percent": 60,
+      "product_model": null
     },
     {
       "title": "Gaming dator med 3070 TUF 1TB ssd",
@@ -240,9 +261,10 @@
       "source": "blocket",
       "category": "pc",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 8000,
+      "original_price_is_estimated": true,
+      "discount_percent": 12,
+      "product_model": null
     },
     {
       "title": "Gaming Dator - i7 11700K, RTX 3060 Ti, 32GB RAM",
@@ -251,9 +273,10 @@
       "source": "blocket",
       "category": "pc",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 5500,
+      "original_price_is_estimated": true,
+      "discount_percent": null,
+      "product_model": "RTX 3060 ti"
     },
     {
       "title": "Gaming Dator (komplett)",
@@ -262,9 +285,10 @@
       "source": "blocket",
       "category": "pc",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 8000,
+      "original_price_is_estimated": true,
+      "discount_percent": 76,
+      "product_model": null
     },
     {
       "title": "RTX 4070 / i7-12700F / 240Hz Skärm – Gaming Dator Gaming Setup",
@@ -273,9 +297,10 @@
       "source": "blocket",
       "category": "pc",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 7500,
+      "original_price_is_estimated": true,
+      "discount_percent": 82,
+      "product_model": "RTX 4070"
     },
     {
       "title": "My Arcade Retro Arcade Machine spelkonsol med 300 inbyggda spel",
@@ -284,9 +309,10 @@
       "source": "blocket",
       "category": "retro",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 1500,
+      "original_price_is_estimated": true,
+      "discount_percent": 60,
+      "product_model": null
     },
     {
       "title": "Anbernic RG28XX handhållen spelkonsol retro vit",
@@ -295,9 +321,10 @@
       "source": "blocket",
       "category": "retro",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 60,
+      "original_price_is_estimated": true,
+      "discount_percent": null,
+      "product_model": "Handheld console"
     },
     {
       "title": "Stor Xbox 360-samling: Spel, Tillbehör & Mer",
@@ -306,9 +333,10 @@
       "source": "blocket",
       "category": "retro",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 800,
+      "original_price_is_estimated": true,
+      "discount_percent": null,
+      "product_model": "Xbox 360"
     },
     {
       "title": "Retro-bit Retro Duo v3.0 spelkonsol Nintendo 8-bit och 16-bit",
@@ -317,9 +345,10 @@
       "source": "blocket",
       "category": "retro",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 1500,
+      "original_price_is_estimated": true,
+      "discount_percent": 53,
+      "product_model": null
     },
     {
       "title": "Super Retro Trio spelkonsol svart/röd med handkontroller",
@@ -328,9 +357,10 @@
       "source": "blocket",
       "category": "retro",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 1500,
+      "original_price_is_estimated": true,
+      "discount_percent": null,
+      "product_model": null
     },
     {
       "title": "Xbox 360 E + 2 kontroller + flera spel GRATIS FRAKT",
@@ -339,9 +369,10 @@
       "source": "blocket",
       "category": "retro",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 800,
+      "original_price_is_estimated": true,
+      "discount_percent": null,
+      "product_model": "Xbox 360"
     },
     {
       "title": "SteelSeries Arctis Nova 5 trådlöst gaming headset",
@@ -350,9 +381,10 @@
       "source": "blocket",
       "category": "gaming",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 500,
+      "original_price_is_estimated": true,
+      "discount_percent": null,
+      "product_model": null
     },
     {
       "title": "Samsung Galaxy Buds3 Pro headset silver",
@@ -361,9 +393,10 @@
       "source": "blocket",
       "category": "gaming",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 500,
+      "original_price_is_estimated": true,
+      "discount_percent": null,
+      "product_model": null
     },
     {
       "title": "Logitech Pro X Wireless Headset",
@@ -372,9 +405,10 @@
       "source": "blocket",
       "category": "gaming",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 500,
+      "original_price_is_estimated": true,
+      "discount_percent": null,
+      "product_model": null
     },
     {
       "title": "Meta Quest 3 VR‑headset 128 GB",
@@ -383,9 +417,10 @@
       "source": "blocket",
       "category": "gaming",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 500,
+      "original_price_is_estimated": true,
+      "discount_percent": null,
+      "product_model": null
     },
     {
       "title": "Oculus Quest VR-headset med handkontroller vit",
@@ -394,9 +429,10 @@
       "source": "blocket",
       "category": "gaming",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 500,
+      "original_price_is_estimated": true,
+      "discount_percent": null,
+      "product_model": null
     },
     {
       "title": "Apple iMac 24-tums skärm med tangentbord och mus",
@@ -405,9 +441,10 @@
       "source": "blocket",
       "category": "keyboard",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 34055,
+      "original_price_is_estimated": true,
+      "discount_percent": 65,
+      "product_model": "Apple IMAC"
     },
     {
       "title": "LED nattlampa akryl figur flerfärgad",
@@ -416,9 +453,10 @@
       "source": "blocket",
       "category": "anime",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 300,
+      "original_price_is_estimated": true,
+      "discount_percent": 67,
+      "product_model": null
     },
     {
       "title": "Multiplayer Festival Poster Set",
@@ -427,9 +465,10 @@
       "source": "blocket",
       "category": "poster",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 150,
+      "original_price_is_estimated": true,
+      "discount_percent": null,
+      "product_model": null
     },
     {
       "title": "EVGA Nvidia GeForce RTX 3070 XC3 Ultra 8GB grafikkort (GPU)",
@@ -438,9 +477,10 @@
       "source": "tradera",
       "category": "gpu",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 7000,
+      "original_price_is_estimated": true,
+      "discount_percent": 76,
+      "product_model": "RTX 3070"
     },
     {
       "title": "NVIDIA GeForce GTX 970 Grafikkort",
@@ -449,9 +489,10 @@
       "source": "tradera",
       "category": "gpu",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 1800,
+      "original_price_is_estimated": true,
+      "discount_percent": 95,
+      "product_model": "GTX 970"
     },
     {
       "title": "NVIDIA Grafikkort CMP90HX 10Gb GDDR6X, Mining/AI GPU",
@@ -460,9 +501,10 @@
       "source": "tradera",
       "category": "gpu",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 4000,
+      "original_price_is_estimated": true,
+      "discount_percent": 61,
+      "product_model": "CMP 90HX"
     },
     {
       "title": "Steelseries tangentbord",
@@ -471,9 +513,10 @@
       "source": "tradera",
       "category": "keyboard",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 13743,
+      "original_price_is_estimated": true,
+      "discount_percent": 97,
+      "product_model": "Steelseries keyboard"
     },
     {
       "title": "EWEADN Tangentbord",
@@ -482,9 +525,10 @@
       "source": "tradera",
       "category": "keyboard",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 800,
+      "original_price_is_estimated": true,
+      "discount_percent": 81,
+      "product_model": null
     },
     {
       "title": "Andersson tangentbord - Deltaco tangentbord",
@@ -493,9 +537,10 @@
       "source": "tradera",
       "category": "keyboard",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 800,
+      "original_price_is_estimated": true,
+      "discount_percent": 75,
+      "product_model": null
     },
     {
       "title": "Kingston FURY BEAST DDR5 RAM 64GB (2x32GB) 5200MT/s",
@@ -504,9 +549,10 @@
       "source": "tradera",
       "category": "ram",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 54487,
+      "original_price_is_estimated": true,
+      "discount_percent": 89,
+      "product_model": "DDR5 64GB"
     },
     {
       "title": "Kingston Fury Impact DDR5 SODIMM RAM 64GB (2x32GB) 5600MHz CL40",
@@ -515,9 +561,10 @@
       "source": "tradera",
       "category": "ram",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 54487,
+      "original_price_is_estimated": true,
+      "discount_percent": 97,
+      "product_model": "DDR5 64GB"
     },
     {
       "title": "Samsung DDR5 RAM 32GB (2x16GB), 5600MHz",
@@ -526,9 +573,10 @@
       "source": "tradera",
       "category": "ram",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 1200,
+      "original_price_is_estimated": true,
+      "discount_percent": null,
+      "product_model": "DDR5 32GB"
     },
     {
       "title": "Corsair Vengeance DDR5 RAM 32GB (2x16GB) 5200MHz",
@@ -537,9 +585,10 @@
       "source": "tradera",
       "category": "ram",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 1200,
+      "original_price_is_estimated": true,
+      "discount_percent": null,
+      "product_model": "DDR5 32GB"
     },
     {
       "title": "Kingston Fury Beast DDR5 RAM 32gb 2x16",
@@ -548,9 +597,10 @@
       "source": "tradera",
       "category": "ram",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 1200,
+      "original_price_is_estimated": true,
+      "discount_percent": null,
+      "product_model": "DDR5 32GB"
     },
     {
       "title": "Corsair RM750x nätaggregat",
@@ -559,9 +609,10 @@
       "source": "tradera",
       "category": "psu",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 900,
+      "original_price_is_estimated": true,
+      "discount_percent": 50,
+      "product_model": null
     },
     {
       "title": "Corsair TX750M nätaggregat",
@@ -570,9 +621,10 @@
       "source": "tradera",
       "category": "psu",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 900,
+      "original_price_is_estimated": true,
+      "discount_percent": 45,
+      "product_model": null
     },
     {
       "title": "Corsair CV650 nätaggregat",
@@ -581,9 +633,10 @@
       "source": "tradera",
       "category": "psu",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 900,
+      "original_price_is_estimated": true,
+      "discount_percent": 87,
+      "product_model": null
     },
     {
       "title": "HP Victus Gaming Dator – Ryzen 5 5600G / RTX 3050 / 16GB RAM / 512GB SSD",
@@ -592,9 +645,10 @@
       "source": "tradera",
       "category": "pc",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 220,
+      "original_price_is_estimated": true,
+      "discount_percent": null,
+      "product_model": "RTX 3050"
     },
     {
       "title": "Vit Gaming Dator - Ryzen 5 / 500GB SSD / 750w PSU",
@@ -603,9 +657,10 @@
       "source": "tradera",
       "category": "pc",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 8000,
+      "original_price_is_estimated": true,
+      "discount_percent": 38,
+      "product_model": null
     },
     {
       "title": "Gaming dator 3060-ti",
@@ -614,9 +669,10 @@
       "source": "tradera",
       "category": "pc",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 8000,
+      "original_price_is_estimated": true,
+      "discount_percent": 25,
+      "product_model": null
     },
     {
       "title": "HP Victus Gaming Dator",
@@ -625,9 +681,10 @@
       "source": "tradera",
       "category": "pc",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 8000,
+      "original_price_is_estimated": true,
+      "discount_percent": 38,
+      "product_model": null
     },
     {
       "title": "Epoch TV Vader retro konsol från Japan 1970-80-tal",
@@ -636,9 +693,10 @@
       "source": "tradera",
       "category": "retro",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 1500,
+      "original_price_is_estimated": true,
+      "discount_percent": 14,
+      "product_model": null
     },
     {
       "title": "Atari Retro Handhållen Konsol med 50 Inbyggda Spel",
@@ -647,9 +705,10 @@
       "source": "tradera",
       "category": "retro",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 13743,
+      "original_price_is_estimated": true,
+      "discount_percent": 93,
+      "product_model": "Handheld console"
     },
     {
       "title": "Super Retro Trio 3 konsol",
@@ -658,9 +717,10 @@
       "source": "tradera",
       "category": "retro",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 1500,
+      "original_price_is_estimated": true,
+      "discount_percent": 72,
+      "product_model": null
     },
     {
       "title": "Atari 7800 konsol (PAL) med en hk, antennkabel och strömadapter",
@@ -669,9 +729,10 @@
       "source": "tradera",
       "category": "retro",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 1200,
+      "original_price_is_estimated": true,
+      "discount_percent": 18,
+      "product_model": "Atari 7800"
     },
     {
       "title": "Panasonic 3DO FZ-10 konsol boxad startpaket",
@@ -680,9 +741,10 @@
       "source": "tradera",
       "category": "retro",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 3000,
+      "original_price_is_estimated": true,
+      "discount_percent": 0,
+      "product_model": "3Do"
     },
     {
       "title": "INtv System III Konsol med 3 Spel - IntelliVision - CIB",
@@ -691,9 +753,10 @@
       "source": "tradera",
       "category": "retro",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 1200,
+      "original_price_is_estimated": true,
+      "discount_percent": 42,
+      "product_model": "Intellivision"
     },
     {
       "title": "OSLAGBART HEADSET",
@@ -702,9 +765,10 @@
       "source": "tradera",
       "category": "gaming",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 500,
+      "original_price_is_estimated": true,
+      "discount_percent": null,
+      "product_model": null
     },
     {
       "title": "Jabra GN Headset",
@@ -713,9 +777,10 @@
       "source": "tradera",
       "category": "gaming",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 500,
+      "original_price_is_estimated": true,
+      "discount_percent": null,
+      "product_model": null
     },
     {
       "title": "Plantronics headset med mikrofon Bluetooth-headset (beg)",
@@ -724,9 +789,10 @@
       "source": "tradera",
       "category": "gaming",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 500,
+      "original_price_is_estimated": true,
+      "discount_percent": 70,
+      "product_model": null
     },
     {
       "title": "Anime Figur Lucy Elfen Lied",
@@ -735,9 +801,10 @@
       "source": "tradera",
       "category": "anime",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 300,
+      "original_price_is_estimated": true,
+      "discount_percent": null,
+      "product_model": null
     },
     {
       "title": "Anime-figur: Blind ängel med vingar",
@@ -746,9 +813,10 @@
       "source": "tradera",
       "category": "anime",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 300,
+      "original_price_is_estimated": true,
+      "discount_percent": null,
+      "product_model": null
     },
     {
       "title": "Anime Figur jujutsu kaisen kvinna",
@@ -757,9 +825,10 @@
       "source": "tradera",
       "category": "anime",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 300,
+      "original_price_is_estimated": true,
+      "discount_percent": null,
+      "product_model": null
     },
     {
       "title": "Anime Figur Vtuber Snuffy",
@@ -768,9 +837,10 @@
       "source": "tradera",
       "category": "anime",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 300,
+      "original_price_is_estimated": true,
+      "discount_percent": null,
+      "product_model": null
     },
     {
       "title": "Anime Figur - Stella med Svärd",
@@ -779,9 +849,10 @@
       "source": "tradera",
       "category": "anime",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 300,
+      "original_price_is_estimated": true,
+      "discount_percent": null,
+      "product_model": null
     },
     {
       "title": "Megumi Kato Anime Figur",
@@ -790,9 +861,10 @@
       "source": "tradera",
       "category": "anime",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 300,
+      "original_price_is_estimated": true,
+      "discount_percent": 35,
+      "product_model": null
     },
     {
       "title": "Carrot One Piece Anime Figur",
@@ -801,9 +873,10 @@
       "source": "tradera",
       "category": "anime",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 300,
+      "original_price_is_estimated": true,
+      "discount_percent": null,
+      "product_model": null
     },
     {
       "title": "GTX 1080 TI Asus ROG Strix Triple Fan",
@@ -812,9 +885,10 @@
       "source": "vinted",
       "category": "gpu",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 6000,
+      "original_price_is_estimated": true,
+      "discount_percent": 73,
+      "product_model": "GTX 1080 Ti"
     },
     {
       "title": "NVIDIA GeForce GTX 1080 OC 8GB",
@@ -823,9 +897,10 @@
       "source": "vinted",
       "category": "gpu",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 5000,
+      "original_price_is_estimated": true,
+      "discount_percent": 79,
+      "product_model": "GTX 1080"
     },
     {
       "title": "GTX 1080 Zotac Triple Fans",
@@ -834,9 +909,10 @@
       "source": "vinted",
       "category": "gpu",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 5000,
+      "original_price_is_estimated": true,
+      "discount_percent": 77,
+      "product_model": "GTX 1080"
     },
     {
       "title": "Sapphire Nitro+ Radeon RX 580 8GB",
@@ -845,9 +921,10 @@
       "source": "vinted",
       "category": "gpu",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 3500,
+      "original_price_is_estimated": true,
+      "discount_percent": 82,
+      "product_model": null
     },
     {
       "title": "Intel ARC B580",
@@ -856,9 +933,10 @@
       "source": "vinted",
       "category": "gpu",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 3500,
+      "original_price_is_estimated": true,
+      "discount_percent": 33,
+      "product_model": "Arc B580"
     },
     {
       "title": "NVIDIA Quadro P1000 4GB",
@@ -867,9 +945,10 @@
       "source": "vinted",
       "category": "gpu",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 3000,
+      "original_price_is_estimated": true,
+      "discount_percent": 77,
+      "product_model": "Quadro P1000"
     },
     {
       "title": "ROG Strix 1050TI",
@@ -878,9 +957,10 @@
       "source": "vinted",
       "category": "gpu",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 3500,
+      "original_price_is_estimated": true,
+      "discount_percent": 88,
+      "product_model": null
     },
     {
       "title": "GeForce GTX 1650",
@@ -889,9 +969,10 @@
       "source": "vinted",
       "category": "gpu",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 13743,
+      "original_price_is_estimated": true,
+      "discount_percent": 95,
+      "product_model": "GTX 1650"
     },
     {
       "title": "Havit Mechanical Keyboard White",
@@ -900,9 +981,10 @@
       "source": "vinted",
       "category": "keyboard",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 800,
+      "original_price_is_estimated": true,
+      "discount_percent": 81,
+      "product_model": null
     },
     {
       "title": "Gaming Tangentbord",
@@ -911,9 +993,10 @@
       "source": "vinted",
       "category": "keyboard",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 800,
+      "original_price_is_estimated": true,
+      "discount_percent": 89,
+      "product_model": null
     },
     {
       "title": "NZXT Function Mechanical Full Size",
@@ -922,9 +1005,10 @@
       "source": "vinted",
       "category": "keyboard",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 13743,
+      "original_price_is_estimated": true,
+      "discount_percent": 98,
+      "product_model": "Nzxt FUNCTION"
     },
     {
       "title": "ASUS ROG Strix Scope RX Mechanical",
@@ -933,9 +1017,10 @@
       "source": "vinted",
       "category": "keyboard",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 220,
+      "original_price_is_estimated": true,
+      "discount_percent": null,
+      "product_model": "Asus ROG"
     },
     {
       "title": "DDR5 16GB Samsung",
@@ -944,9 +1029,10 @@
       "source": "vinted",
       "category": "ram",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 700,
+      "original_price_is_estimated": true,
+      "discount_percent": null,
+      "product_model": "DDR5 16GB"
     },
     {
       "title": "G.Skill Trident Z Neo 16GB RGB",
@@ -955,9 +1041,10 @@
       "source": "vinted",
       "category": "ram",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 600,
+      "original_price_is_estimated": true,
+      "discount_percent": null,
+      "product_model": null
     },
     {
       "title": "Corsair DDR4 8GBx2 3200MHz",
@@ -966,9 +1053,10 @@
       "source": "vinted",
       "category": "ram",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 250,
+      "original_price_is_estimated": true,
+      "discount_percent": null,
+      "product_model": "DDR4 8GB"
     },
     {
       "title": "HP EliteBook 840 G6 i7 Touchscreen",
@@ -977,9 +1065,10 @@
       "source": "vinted",
       "category": "pc",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 8000,
+      "original_price_is_estimated": true,
+      "discount_percent": 85,
+      "product_model": null
     },
     {
       "title": "Asus VivoBook 17",
@@ -988,9 +1077,10 @@
       "source": "vinted",
       "category": "pc",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 8000,
+      "original_price_is_estimated": true,
+      "discount_percent": 81,
+      "product_model": null
     },
     {
       "title": "Lenovo IdeaPad Gaming 3",
@@ -999,9 +1089,10 @@
       "source": "vinted",
       "category": "pc",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 8000,
+      "original_price_is_estimated": true,
+      "discount_percent": 90,
+      "product_model": null
     },
     {
       "title": "RIG Gaming Hörlurar",
@@ -1010,9 +1101,10 @@
       "source": "vinted",
       "category": "gaming",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 500,
+      "original_price_is_estimated": true,
+      "discount_percent": 50,
+      "product_model": null
     },
     {
       "title": "Razer Nari",
@@ -1021,9 +1113,10 @@
       "source": "vinted",
       "category": "gaming",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 500,
+      "original_price_is_estimated": true,
+      "discount_percent": 65,
+      "product_model": null
     },
     {
       "title": "PC Headset Pro H3 Glowster",
@@ -1032,9 +1125,10 @@
       "source": "vinted",
       "category": "gaming",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 500,
+      "original_price_is_estimated": true,
+      "discount_percent": 82,
+      "product_model": null
     },
     {
       "title": "Angel Beats! Anime Figures Taito",
@@ -1043,9 +1137,10 @@
       "source": "vinted",
       "category": "anime",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 300,
+      "original_price_is_estimated": true,
+      "discount_percent": 47,
+      "product_model": null
     },
     {
       "title": "Anime Tjej Figur",
@@ -1054,9 +1149,10 @@
       "source": "vinted",
       "category": "anime",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 300,
+      "original_price_is_estimated": true,
+      "discount_percent": 0,
+      "product_model": null
     },
     {
       "title": "One Piece Nami Glitters Glamours",
@@ -1065,9 +1161,10 @@
       "source": "vinted",
       "category": "anime",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 300,
+      "original_price_is_estimated": true,
+      "discount_percent": 57,
+      "product_model": null
     },
     {
       "title": "Mitsuri Demon Slayer Figure",
@@ -1076,9 +1173,10 @@
       "source": "vinted",
       "category": "anime",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 300,
+      "original_price_is_estimated": true,
+      "discount_percent": 75,
+      "product_model": null
     },
     {
       "title": "Poster Inklusive Ram",
@@ -1087,9 +1185,10 @@
       "source": "vinted",
       "category": "poster",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 150,
+      "original_price_is_estimated": true,
+      "discount_percent": 60,
+      "product_model": null
     },
     {
       "title": "CanvasPoster 20x30 cm",
@@ -1098,9 +1197,10 @@
       "source": "vinted",
       "category": "poster",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 150,
+      "original_price_is_estimated": true,
+      "discount_percent": 54,
+      "product_model": null
     },
     {
       "title": "CanvasPoster 30x40 cm",
@@ -1109,9 +1209,10 @@
       "source": "vinted",
       "category": "poster",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 150,
+      "original_price_is_estimated": true,
+      "discount_percent": 41,
+      "product_model": null
     },
     {
       "title": "NVIDIA GeForce RTX 4060 Ti GDDR6 GPU",
@@ -1120,9 +1221,10 @@
       "source": "ebay",
       "category": "gpu",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 6000,
+      "original_price_is_estimated": true,
+      "discount_percent": 98,
+      "product_model": "RTX 4060 ti"
     },
     {
       "title": "EVGA NVIDIA GeForce GTX 780 FTW Edition 3GB GDDR5",
@@ -1131,9 +1233,10 @@
       "source": "ebay",
       "category": "gpu",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 13743,
+      "original_price_is_estimated": true,
+      "discount_percent": 71,
+      "product_model": "GTX 780"
     },
     {
       "title": "MSI RTX 3080 Ventus 3X 10G OC Graphics Card GPU",
@@ -1142,9 +1245,10 @@
       "source": "ebay",
       "category": "gpu",
       "currency": "SEK",
-      "original_price": null,
-      "original_price_is_estimated": false,
-      "discount_percent": null
+      "original_price": 10000,
+      "original_price_is_estimated": true,
+      "discount_percent": null,
+      "product_model": "RTX 3080"
     }
   ]
 }

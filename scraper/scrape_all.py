@@ -17,6 +17,9 @@ from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime
 from urllib.parse import quote
 
+# enrichment module
+from enrichment import enrich_all
+
 # browser-harness http_get — pure HTTP, no browser
 sys.path.insert(0, "/tmp/browser-harness")
 from helpers import http_get
@@ -148,6 +151,11 @@ def scrape_all() -> dict:
         if item["url"] not in seen:
             seen.add(item["url"])
             unique.append(item)
+
+    # Enrich items with price estimates and discounts
+    unique = enrich_all(unique)
+    enriched_count = sum(1 for i in unique if i.get("original_price"))
+    print(f"  ✦ {enriched_count} items enriched with price estimates", file=sys.stderr)
 
     elapsed = time.time() - start
     print(f"\n✓ {len(unique)} unique items in {elapsed:.1f}s", file=sys.stderr)
