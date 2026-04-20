@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Deals Finder Output",
+  "description": "Unified schema for scraped and enriched deal data. Frontend and pipeline MUST agree on this.",
+  "type": "object",
+  "required": ["date", "currency", "items"],
+  "additionalProperties": false,
+  "properties": {
+    "date": {
+      "type": "string",
+      "format": "date",
+      "description": "ISO date of the scrape run (YYYY-MM-DD)"
+    },
+    "currency": {
+      "type": "string",
+      "const": "SEK",
+      "description": "Currency for all prices in this payload"
+    },
+    "scrape_time_seconds": {
+      "type": "number",
+      "minimum": 0,
+      "description": "How long the scrape took"
+    },
+    "sources": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Which marketplace sources were scraped"
+    },
+    "items": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/Item" }
+    }
+  },
+  "$defs": {
+    "Item": {
+      "type": "object",
+      "required": ["title", "url", "price", "category", "source"],
+      "additionalProperties": false,
+      "properties": {
+        "title": {
+          "type": "string",
+          "maxLength": 200,
+          "description": "Item listing title"
+        },
+        "url": {
+          "type": "string",
+          "format": "uri",
+          "description": "Direct link to the listing"
+        },
+        "price": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Current listing price in SEK"
+        },
+        "category": {
+          "type": "string",
+          "description": "Product category (e.g. gpu, keyboard, car, furniture)"
+        },
+        "source": {
+          "type": "string",
+          "enum": ["blocket", "tradera", "vinted", "ebay", "sellpy", "other"],
+          "description": "Marketplace source"
+        },
+
+        "original_price": {
+          "type": ["integer", "null"],
+          "minimum": 0,
+          "description": "Estimated original/retail price in SEK. Null if enrichment couldn't determine it."
+        },
+        "original_price_is_estimated": {
+          "type": "boolean",
+          "default": false,
+          "description": "True when original_price is a model estimate, not exact MSRP"
+        },
+        "discount_percent": {
+          "type": ["integer", "null"],
+          "minimum": 0,
+          "maximum": 100,
+          "description": "Calculated discount: round((1 - price/original_price) * 100). Null if no original_price."
+        },
+
+        "product_model": {
+          "type": ["string", "null"],
+          "description": "Extracted product model/identifier (e.g. 'RTX 3060 Ti', 'iPhone 15 Pro')"
+        },
+        "condition": {
+          "type": ["string", "null"],
+          "enum": ["new", "like_new", "good", "fair", "poor", null],
+          "description": "Item condition if detectable from listing"
+        },
+        "image_url": {
+          "type": ["string", "null"],
+          "format": "uri",
+          "description": "Primary listing image URL"
+        }
+      }
+    }
+  }
+}

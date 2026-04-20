@@ -100,6 +100,26 @@ class PrisjaktProvider(PriceProvider):
         return None, False
 
 
+def _usd_to_sek(usd: float) -> int:
+    """Convert USD to SEK using live exchange rate from open.er-api.com (free, no key)."""
+    import json as _json
+    import urllib.request
+    try:
+        req = urllib.request.Request(
+            "https://open.er-api.com/v6/latest/USD",
+            headers={"User-Agent": "deals-finder/1.0"}
+        )
+        with urllib.request.urlopen(req, timeout=8) as resp:
+            data = _json.loads(resp.read())
+            rate = data.get("rates", {}).get("SEK")
+            if rate:
+                return round(usd * rate)
+    except Exception:
+        pass
+    # Fallback: approximate rate if API fails
+    return round(usd * 9.5)
+
+
 # ── eBay provider (market prices) ────────────────────────────────────────────
 
 class EbayProvider(PriceProvider):
@@ -137,14 +157,20 @@ class EbayProvider(PriceProvider):
                 median = prices[len(prices) // 2]
                 return median, True
 
-        # Fallback: USD prices (multiply by ~11 for rough SEK)
+        # Fallback: USD prices converted with live rate
+        # Only reliable for GPUs — other categories match unrelated products
+        if category.lower() not in ('gpu', 'pc'):
+            return None, False
         usd_matches = re.findall(r'\$([\d,]+(?:\.\d{2})?)', html)
         if usd_matches:
             prices = []
+            rate = None
             for m in usd_matches:
                 try:
                     usd = float(m.replace(',', ''))
-                    sek = int(usd * 11)  # rough USD→SEK
+                    if rate is None:
+                        rate = _usd_to_sek(1.0)  # fetch rate once
+                    sek = round(usd * rate)
                     if 100 <= sek <= 500000:
                         prices.append(sek)
                 except ValueError:

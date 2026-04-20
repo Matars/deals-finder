@@ -165,9 +165,9 @@
       "source": "blocket",
       "category": "psu",
       "currency": "SEK",
-      "original_price": 13743,
+      "original_price": 900,
       "original_price_is_estimated": true,
-      "discount_percent": 98,
+      "discount_percent": 72,
       "product_model": "550W PSU"
     },
     {
@@ -177,9 +177,9 @@
       "source": "blocket",
       "category": "psu",
       "currency": "SEK",
-      "original_price": 13743,
+      "original_price": 900,
       "original_price_is_estimated": true,
-      "discount_percent": 96,
+      "discount_percent": 33,
       "product_model": "Corsair 650W"
     },
     {
@@ -189,9 +189,9 @@
       "source": "blocket",
       "category": "psu",
       "currency": "SEK",
-      "original_price": 13743,
+      "original_price": 900,
       "original_price_is_estimated": true,
-      "discount_percent": 98,
+      "discount_percent": 72,
       "product_model": "Corsair 650W"
     },
     {
@@ -201,9 +201,9 @@
       "source": "blocket",
       "category": "psu",
       "currency": "SEK",
-      "original_price": 13743,
+      "original_price": 900,
       "original_price_is_estimated": true,
-      "discount_percent": 98,
+      "discount_percent": 67,
       "product_model": "650W PSU"
     },
     {
@@ -213,9 +213,9 @@
       "source": "blocket",
       "category": "psu",
       "currency": "SEK",
-      "original_price": 13743,
+      "original_price": 900,
       "original_price_is_estimated": true,
-      "discount_percent": 91,
+      "discount_percent": null,
       "product_model": "Asus 850W"
     },
     {
@@ -225,9 +225,9 @@
       "source": "blocket",
       "category": "psu",
       "currency": "SEK",
-      "original_price": 13743,
+      "original_price": 900,
       "original_price_is_estimated": true,
-      "discount_percent": 95,
+      "discount_percent": 28,
       "product_model": "Corsair 850W"
     },
     {
@@ -321,9 +321,9 @@
       "source": "blocket",
       "category": "retro",
       "currency": "SEK",
-      "original_price": 60,
+      "original_price": 1500,
       "original_price_is_estimated": true,
-      "discount_percent": null,
+      "discount_percent": 67,
       "product_model": "Handheld console"
     },
     {
@@ -441,9 +441,9 @@
       "source": "blocket",
       "category": "keyboard",
       "currency": "SEK",
-      "original_price": 34055,
+      "original_price": 800,
       "original_price_is_estimated": true,
-      "discount_percent": 65,
+      "discount_percent": null,
       "product_model": "Apple IMAC"
     },
     {
@@ -513,9 +513,9 @@
       "source": "tradera",
       "category": "keyboard",
       "currency": "SEK",
-      "original_price": 13743,
+      "original_price": 800,
       "original_price_is_estimated": true,
-      "discount_percent": 97,
+      "discount_percent": 50,
       "product_model": "Steelseries keyboard"
     },
     {
@@ -549,9 +549,9 @@
       "source": "tradera",
       "category": "ram",
       "currency": "SEK",
-      "original_price": 54487,
+      "original_price": 600,
       "original_price_is_estimated": true,
-      "discount_percent": 89,
+      "discount_percent": null,
       "product_model": "DDR5 64GB"
     },
     {
@@ -561,9 +561,9 @@
       "source": "tradera",
       "category": "ram",
       "currency": "SEK",
-      "original_price": 54487,
+      "original_price": 600,
       "original_price_is_estimated": true,
-      "discount_percent": 97,
+      "discount_percent": null,
       "product_model": "DDR5 64GB"
     },
     {
@@ -645,7 +645,7 @@
       "source": "tradera",
       "category": "pc",
       "currency": "SEK",
-      "original_price": 220,
+      "original_price": 180,
       "original_price_is_estimated": true,
       "discount_percent": null,
       "product_model": "RTX 3050"
@@ -705,9 +705,9 @@
       "source": "tradera",
       "category": "retro",
       "currency": "SEK",
-      "original_price": 13743,
+      "original_price": 1500,
       "original_price_is_estimated": true,
-      "discount_percent": 93,
+      "discount_percent": 33,
       "product_model": "Handheld console"
     },
     {
@@ -1005,9 +1005,9 @@
       "source": "vinted",
       "category": "keyboard",
       "currency": "SEK",
-      "original_price": 13743,
+      "original_price": 800,
       "original_price_is_estimated": true,
-      "discount_percent": 98,
+      "discount_percent": 58,
       "product_model": "Nzxt FUNCTION"
     },
     {
@@ -1017,9 +1017,9 @@
       "source": "vinted",
       "category": "keyboard",
       "currency": "SEK",
-      "original_price": 220,
+      "original_price": 800,
       "original_price_is_estimated": true,
-      "discount_percent": null,
+      "discount_percent": 4,
       "product_model": "Asus ROG"
     },
     {

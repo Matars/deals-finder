@@ -249,5 +249,11 @@ class TechEnricher(Enricher):
             if known in key or key in known:
                 return price, True
 
+        # Only GPU and PC benefit from external providers (Prisjakt/eBay).
+        # Other categories match unrelated products → use EXACT_PRICES or defaults.
+        if category.lower() not in ('gpu', 'pc'):
+            price = CATEGORY_DEFAULTS.get(category)
+            return (price, True) if price else (None, False)
+
         # Fall through to price chain
         return self.price_chain.get_price(model, category, title)
